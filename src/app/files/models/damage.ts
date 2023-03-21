@@ -1729,8 +1729,8 @@ export class Damage {
     indicador: any,
     posicion: any
   ) {
-    console.log('MI ID => ', constants.PROTESIS_TOTAL);
     
+
     if (this.id == constants.FRACTURA) {
       this.drawFractura(context, settings);
     }
@@ -1765,6 +1765,7 @@ export class Damage {
 
     if (this.id == constants.REMANENTE_RADICULAR) {
       this.drawRemanenteRadicular(context, settings, indicador, posicion);
+    }
 
       if (this.id == constants.GIROVERSION) {
         this.drawGiroversion(context, settings);
@@ -1881,5 +1882,4 @@ export class Damage {
         this.rect.highlight(context, settings);
       }
     }
-  }
 }
