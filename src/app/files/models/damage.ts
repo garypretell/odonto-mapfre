@@ -166,7 +166,7 @@ export class Damage {
 
     var xIni =
       this.rect.x + (this.direction == 0 ? spacer : this.rect.width - spacer);
-    var xFin = xIni + (this.direction == 0 ? 4 : (-4));
+    var xFin = xIni + (this.direction == 0 ? 4 : -4);
 
     if (this.type == 0) {
       // draw line
@@ -728,7 +728,6 @@ export class Damage {
     if (this.type == 0) {
       cx = cx - 17;
       cy = this.rect.y + 16 + 72;
-
     } else {
       cx = cx - 17;
       cy = this.rect.y + this.rect.height - 16 - 105;
@@ -767,7 +766,6 @@ export class Damage {
     if (this.type == 0) {
       cx = cx - 17;
       cy = this.rect.y + 16 + 115;
-
     } else {
       cx = cx - 17;
       cy = this.rect.y + this.rect.height - 16 - 148;
@@ -1015,7 +1013,6 @@ export class Damage {
       );
 
       context.stroke();
-
     } else {
       context.beginPath();
 
@@ -1102,7 +1099,6 @@ export class Damage {
 
     if (this.state == 0) context.strokeStyle = settings.COLOR_BLUE;
     else context.strokeStyle = settings.COLOR_RED;
-
 
     if (this.type == 0) {
       context.moveTo(this.rect.x + this.rect.width / 2, this.rect.y);
@@ -1301,13 +1297,12 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'DIS',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-    } 
+    }
     context.restore();
   }
 
@@ -1351,14 +1346,12 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'E',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-
-    } 
+    }
     context.restore();
   }
 
@@ -1396,7 +1389,6 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'I',
         this.rect.x + this.rect.width / 2,
@@ -1453,7 +1445,6 @@ export class Damage {
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-
     }
     context.restore();
   }
@@ -1477,11 +1468,9 @@ export class Damage {
   }
 
   drawImplante(context: any, settings: any, indicador: any, posicion: any) {
-
     if (indicador == 'IMP')
       this.rect.highlightWithColor(context, '#ffffff', 1, indicador, posicion);
     else this.rect.highlightWithColor(context, '#ffffff', 1);
-
 
     context.textAlign = 'center';
 
@@ -1515,13 +1504,12 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'IMP',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-    } 
+    }
     context.restore();
   }
 
@@ -1560,13 +1548,11 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'MAC',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-
     }
     context.restore();
   }
@@ -1606,13 +1592,12 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'MIC',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-    } 
+    }
     context.restore();
   }
 
@@ -1712,13 +1697,12 @@ export class Damage {
         );
       }
     } else {
-
       context.fillText(
         'DES',
         this.rect.x + this.rect.width / 2,
         this.rect.y + this.rect.height - 4
       );
-    } 
+    }
     context.restore();
   }
 
@@ -1729,8 +1713,6 @@ export class Damage {
     indicador: any,
     posicion: any
   ) {
-    
-
     if (this.id == constants.FRACTURA) {
       this.drawFractura(context, settings);
     }
@@ -1767,119 +1749,119 @@ export class Damage {
       this.drawRemanenteRadicular(context, settings, indicador, posicion);
     }
 
-      if (this.id == constants.GIROVERSION) {
-        this.drawGiroversion(context, settings);
-      }
-
-      if (this.id == constants.PERNO_MUNON) {
-        this.drawPernoMunon(context, settings);
-      }
-
-      if (this.id == constants.DIENTE_EN_ERUPCION) {
-        this.drawDienteEnErupcion(context, settings);
-      }
-
-      if (this.id === constants.PROTESIS_TOTAL) {
-        this.drawProtesisTotal(context, settings);
-      }
-
-      if (this.id == constants.EDENTULOA_TOTAL) {
-        this.drawEdentuloTotal(context, settings);
-      }
-
-      if (this.id == constants.DIENTE_EN_CLAVIJA) {
-        this.drawDienteEnClavija(context, settings);
-      }
-
-      if (this.id == constants.FUSION) {
-        this.drawFusion(context, settings);
-      }
-
-      if (this.id == constants.CORONA_DEFINITIVA) {
-        this.drawCoronaDefinitiva(context, settings);
-      }
-
-      if (this.id == constants.CORONA_TEMPORAL) {
-        this.drawCoronaTemporal(context, settings);
-      }
-
-      if (this.id == constants.DIASTEMA) {
-        this.drawDiastema(context, settings);
-      }
-
-      if (this.id == constants.SUPER_NUMERARIO) {
-        this.drawSuperNumerario(context, settings);
-      }
-
-      if (this.id == constants.ORTODONTICO_FIJO_END) {
-        this.drawOrtodonticoFijoEnd(context, settings);
-      }
-
-      if (this.id == constants.ORTODONTICO_FIJO_CENTER) {
-        this.drawOrtodonticoFijoCenter(context, settings);
-      }
-
-      if (this.id == constants.PROTESIS_FIJA_RIGHT) {
-        this.drawProtesisFijaRight(context, settings);
-      }
-
-      if (this.id == constants.PROTESIS_FIJA_CENTER) {
-        this.drawProtesisFijaCenter(context, settings);
-      }
-
-      if (this.id == constants.PROTESIS_FIJA_LEFT) {
-        this.drawProtesisFijaLeft(context, settings);
-      }
-
-      if (this.id == constants.TRANSPOSICION_LEFT) {
-        this.drawTransposicionLeft(context, settings);
-      }
-
-      if (this.id == constants.TRANSPOSICION_RIGHT) {
-        this.drawTransposicionRight(context, settings);
-      }
-
-      if (this.id == constants.DIENTE_DISCR0MICO) {
-        this.drawDienteDiscomico(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.IMPACTACION) {
-        this.drawImpactacion(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.FOSAS_PROFUNDAS) {
-        this.drawFosasProfundas(context, settings, indicador, posicion);
-      }
-      if (this.id == constants.GEMINACION) {
-        this.drawGeminacion(context, settings);
-      }
-
-      if (this.id == constants.DIENTE_ECTOPICO) {
-        this.drawDienteEctopico(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.IMPLANTE) {
-        this.drawImplante(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.MACRODONCIA) {
-        this.drawMacrodoncia(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.MICRODONCIA) {
-        this.drawMicrodonica(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.SEMI_IMPACTACI0N) {
-        this.drawSemiImpactacion(context, settings, indicador, posicion);
-      }
-
-      if (this.id == constants.SUPERFICIE_DESGASTADA) {
-        this.drawSuperficieDesgastada(context, settings, indicador, posicion);
-      }
-
-      if (settings.DEBUG) {
-        this.rect.highlight(context, settings);
-      }
+    if (this.id == constants.GIROVERSION) {
+      this.drawGiroversion(context, settings);
     }
+
+    if (this.id == constants.PERNO_MUNON) {
+      this.drawPernoMunon(context, settings);
+    }
+
+    if (this.id == constants.DIENTE_EN_ERUPCION) {
+      this.drawDienteEnErupcion(context, settings);
+    }
+
+    if (this.id === constants.PROTESIS_TOTAL) {
+      this.drawProtesisTotal(context, settings);
+    }
+
+    if (this.id == constants.EDENTULOA_TOTAL) {
+      this.drawEdentuloTotal(context, settings);
+    }
+
+    if (this.id == constants.DIENTE_EN_CLAVIJA) {
+      this.drawDienteEnClavija(context, settings);
+    }
+
+    if (this.id == constants.FUSION) {
+      this.drawFusion(context, settings);
+    }
+
+    if (this.id == constants.CORONA_DEFINITIVA) {
+      this.drawCoronaDefinitiva(context, settings);
+    }
+
+    if (this.id == constants.CORONA_TEMPORAL) {
+      this.drawCoronaTemporal(context, settings);
+    }
+
+    if (this.id == constants.DIASTEMA) {
+      this.drawDiastema(context, settings);
+    }
+
+    if (this.id == constants.SUPER_NUMERARIO) {
+      this.drawSuperNumerario(context, settings);
+    }
+
+    if (this.id == constants.ORTODONTICO_FIJO_END) {
+      this.drawOrtodonticoFijoEnd(context, settings);
+    }
+
+    if (this.id == constants.ORTODONTICO_FIJO_CENTER) {
+      this.drawOrtodonticoFijoCenter(context, settings);
+    }
+
+    if (this.id == constants.PROTESIS_FIJA_RIGHT) {
+      this.drawProtesisFijaRight(context, settings);
+    }
+
+    if (this.id == constants.PROTESIS_FIJA_CENTER) {
+      this.drawProtesisFijaCenter(context, settings);
+    }
+
+    if (this.id == constants.PROTESIS_FIJA_LEFT) {
+      this.drawProtesisFijaLeft(context, settings);
+    }
+
+    if (this.id == constants.TRANSPOSICION_LEFT) {
+      this.drawTransposicionLeft(context, settings);
+    }
+
+    if (this.id == constants.TRANSPOSICION_RIGHT) {
+      this.drawTransposicionRight(context, settings);
+    }
+
+    if (this.id == constants.DIENTE_DISCR0MICO) {
+      this.drawDienteDiscomico(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.IMPACTACION) {
+      this.drawImpactacion(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.FOSAS_PROFUNDAS) {
+      this.drawFosasProfundas(context, settings, indicador, posicion);
+    }
+    if (this.id == constants.GEMINACION) {
+      this.drawGeminacion(context, settings);
+    }
+
+    if (this.id == constants.DIENTE_ECTOPICO) {
+      this.drawDienteEctopico(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.IMPLANTE) {
+      this.drawImplante(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.MACRODONCIA) {
+      this.drawMacrodoncia(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.MICRODONCIA) {
+      this.drawMicrodonica(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.SEMI_IMPACTACI0N) {
+      this.drawSemiImpactacion(context, settings, indicador, posicion);
+    }
+
+    if (this.id == constants.SUPERFICIE_DESGASTADA) {
+      this.drawSuperficieDesgastada(context, settings, indicador, posicion);
+    }
+
+    if (settings.DEBUG) {
+      this.rect.highlight(context, settings);
+    }
+  }
 }

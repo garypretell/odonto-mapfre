@@ -27,9 +27,7 @@ export class Renderer {
     this.width = canvas.width;
     this.height = canvas.height;
 
-    setTimeout(() => {
-      this.drawSplash();
-    }, 1500);
+    this.drawSplash();
   }
 
   clear(settings: any, valor?: any) {
