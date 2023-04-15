@@ -4,7 +4,6 @@ import { Renderer } from './renderer';
 import { Settings } from '../utils/settings';
 import { Constants } from '../utils/constants';
 
-
 export class Engine {
   canvas: any = null;
 
@@ -329,9 +328,7 @@ export class Engine {
               this.constants
             );
           }
-        } else if (
-          this.selectedHallazgo == this.constants.PROTESIS_FIJA_LEFT
-        ) {
+        } else if (this.selectedHallazgo == this.constants.PROTESIS_FIJA_LEFT) {
           this.mouth[start].toggleDamage(
             this.constants.PROTESIS_FIJA_RIGHT,
             this.constants
@@ -348,9 +345,7 @@ export class Engine {
               this.constants
             );
           }
-        } else if (
-          this.selectedHallazgo == this.constants.TRANSPOSICION_LEFT
-        ) {
+        } else if (this.selectedHallazgo == this.constants.TRANSPOSICION_LEFT) {
           if (end - start == 1) {
             this.mouth[start].toggleDamage(
               this.constants.TRANSPOSICION_LEFT,
@@ -516,15 +511,10 @@ export class Engine {
           }
         }
 
-        if (
-          this.selectedHallazgo == this.constants.CORONA_DEFINITIVA ||
-          this.constants.PULPAR
-        ) {
+        if (this.selectedHallazgo == this.constants.CORONA_DEFINITIVA) {
           for (var j = 0; j < this.mouth[i].damages.length; j++) {
             if (
-              this.mouth[i].damages[j].id ==
-                this.constants.CORONA_DEFINITIVA ||
-              this.mouth[i].damages[j].id == this.constants.PULPAR
+              this.mouth[i].damages[j].id == this.constants.CORONA_DEFINITIVA
             ) {
               var valor = this.mouth[i].damages[j].statetext;
 
@@ -728,17 +718,12 @@ export class Engine {
           }
         }
 
-        if (
-          this.selectedHallazgo == this.constants.CORONA_DEFINITIVA ||
-          this.selectedHallazgo == this.constants.PULPAR
-        ) {
+        if (this.selectedHallazgo == this.constants.CORONA_DEFINITIVA) {
           var posicion1 = 0;
           var posicion2 = 0;
           for (var j = 0; j < this.mouth[i].damages.length; j++) {
             if (
-              this.mouth[i].damages[j].id ==
-                this.constants.CORONA_DEFINITIVA ||
-              this.mouth[i].damages[j].id == this.constants.PULPAR
+              this.mouth[i].damages[j].id == this.constants.CORONA_DEFINITIVA
             ) {
               this.mouth[i].textBox.statetext = 1;
               if (this.mouth.length > 60) {
@@ -1283,6 +1268,33 @@ export class Engine {
               }
             }
 
+            if (this.selectedHallazgo == this.constants.PULPOTOMIA) {
+              texto = 'PP';
+              if (this.mouth[i].checkBoxes[j].clic_check == undefined) {
+                this.mouth[i].checkBoxes[j].clic_check = 1;
+                this.mouth[i].textBox.text = texto;
+                this.mouth[i].textBox.statetext = 0;
+                this.mouth[i].textBox.state = 0;
+              } else if (
+                this.mouth[i].checkBoxes[j].clic_check != undefined &&
+                this.mouth[i].checkBoxes[j].clic_check < 3
+              ) {
+                this.mouth[i].checkBoxes[j].clic_check =
+                  parseInt(this.mouth[i].checkBoxes[j].clic_check) + 2;
+                this.mouth[i].checkBoxes[j].state = -46; /**/
+                this.mouth[i].textBox.statetext = 1;
+                this.mouth[i].textBox.state = 1;
+              } else if (
+                this.mouth[i].checkBoxes[j].clic_check == 3 &&
+                this.mouth[i].checkBoxes[j].touching == true
+              ) {
+                this.mouth[i].textBox.text = '';
+                this.mouth[i].checkBoxes[j].state = 0;
+                this.mouth[i].checkBoxes[j].clic_check = undefined;
+                this.mouth[i].checkBoxes[j].touching = false;
+              }
+            }
+
             if (this.selectedHallazgo == this.constants.CURACION) {
               if (
                 this.mouth[i].checkBoxes[j].touching == true &&
@@ -1711,16 +1723,21 @@ export class Engine {
           }
         }
         if (t1.damages[j].id == this.constants.PULPAR) {
-          d.note = t1.textBox.text;
-          d.state = 0;
-          d.state2 = 0;
-          d.state3 = 0;
+          // d.note = t1.textBox.text;
+          // d.state = 0;
+          // d.state2 = 0;
+          // d.state3 = 0;
+          if (t1.damages[j].state == 1) {
+            t1.damages[j].indicador = 'R';
+            d.statetext = t1.damages[j].state;
+          }
+          if (t1.damages[j].state == 0) {
+            t1.damages[j].indicador = 'A';
+            d.statetext = t1.damages[j].state;
+          }
         }
 
-        if (
-          t1.damages[j].id == this.constants.CORONA_DEFINITIVA ||
-          t1.damages[j].id == this.constants.PULPAR
-        ) {
+        if (t1.damages[j].id == this.constants.CORONA_DEFINITIVA) {
           d.note = t1.textBox.text;
           d.note2 = t1.textBox2.text;
           d.note3 = t1.textBox3.text;
@@ -1777,6 +1794,14 @@ export class Engine {
             d.state = t1.textBox.statetext;
             d.state2 = t1.textBox2.statetext;
             d.state3 = t1.textBox3.statetext;
+          } else if (
+            (t1.checkBoxes[j].state == this.constants.PULPOTOMIA ||
+              t1.checkBoxes[j].state == -46) &&
+            d.note == 'PP'
+          ) {
+            if (t1.checkBoxes[j].clic_check == 1) d.state = 0;
+            else if (t1.checkBoxes[j].clic_check > 2) d.state = 1;
+            d.damage = 46;
           }
           /**/
           list.push(d);
@@ -1952,15 +1977,20 @@ export class Engine {
           }
         }
         if (t1.damages[j].id == this.constants.PULPAR) {
-          d.note = t1.textBox.text;
-          d.state = 0;
-          d.state2 = 0;
-          d.state3 = 0;
+          // d.note = t1.textBox.text;
+          // d.state = 0;
+          // d.state2 = 0;
+          // d.state3 = 0;
+          if (t1.damages[j].state == 1) {
+            t1.damages[j].indicador = 'R';
+            d.statetext = t1.damages[j].state;
+          }
+          if (t1.damages[j].state == 0) {
+            t1.damages[j].indicador = 'A';
+            d.statetext = t1.damages[j].state;
+          }
         }
-        if (
-          t1.damages[j].id == this.constants.CORONA_DEFINITIVA ||
-          t1.damages[j].id == this.constants.PULPAR
-        ) {
+        if (t1.damages[j].id == this.constants.CORONA_DEFINITIVA) {
           d.note = t1.textBox.text;
           d.note2 = t1.textBox2.text;
           d.note3 = t1.textBox3.text;
@@ -2016,6 +2046,14 @@ export class Engine {
             d.state = t1.textBox.statetext;
             d.state2 = t1.textBox2.statetext;
             d.state3 = t1.textBox3.statetext;
+          } else if (
+            (t1.checkBoxes[j].state == this.constants.PULPOTOMIA ||
+              t1.checkBoxes[j].state == -46) &&
+            d.note == 'PP'
+          ) {
+            if (t1.checkBoxes[j].clic_check == 1) d.state = 0;
+            else if (t1.checkBoxes[j].clic_check > 2) d.state = 1;
+            d.damage = 46;
           }
           /**/
           list.push(d);
@@ -2364,10 +2402,7 @@ export class Engine {
 
         var xcontador = '';
 
-        if (
-          damage == this.constants.CORONA_DEFINITIVA ||
-          damage == this.constants.PULPAR
-        ) {
+        if (damage == this.constants.CORONA_DEFINITIVA) {
           xcontador = state;
         }
 
@@ -2551,21 +2586,33 @@ export class Engine {
         }
       }
 
-      if (
-        damage == this.constants.SELLANTES &&
-        note == 'S'
-      ) {
+      if (damage == this.constants.SELLANTES && note == 'S') {
         if (state == 0) {
           t.textBox.statetext = state;
           surface.clic_check = 1;
           surface.touching = true;
           surface.statetext = 0;
-        } else if ((state == 1)) {
+        } else if (state == 1) {
           t.textBox.statetext = state;
           surface.clic_check = 3;
           surface.touching = true;
           surface.statetext = 1;
           surface.state = -40;
+        }
+      }
+
+      if (damage === this.constants.PULPOTOMIA && note === 'PP') {
+        if (state == 0) {
+          t.textBox.statetext = state;
+          surface.clic_check = 1;
+          surface.touching = true;
+          surface.statetext = 0;
+        } else if ((state = 1)) {
+          t.textBox.statetext = state;
+          surface.clic_check = 3;
+          surface.touching = true;
+          surface.statetext = 1;
+          surface.state = -46;
         }
       }
       /**/
@@ -2636,7 +2683,7 @@ export class Engine {
         res[i + 11]
       );
 
-      i = i + 12; 
+      i = i + 12;
     }
 
     this.mouth = this.odontAdult;
@@ -3035,7 +3082,6 @@ export class Engine {
       '#000000'
     );
 
-
     seperation = 15;
 
     this.renderer.renderText14('Sede', 4, seperation * 2, '#000000');
@@ -3224,13 +3270,12 @@ export class Engine {
         }
         /**/
       }
-
     }
- 
+
     this.renderer.render(this.odontAdult, this.settings, this.constants, 'IMP');
     this.renderer.render(this.odontSpacesAdult, this.settings, this.constants);
 
-    this.renderer.render(this.odontChild, this.settings, this.constants, 'IMP'); 
+    this.renderer.render(this.odontChild, this.settings, this.constants, 'IMP');
     this.renderer.render(this.odontSpacesChild, this.settings, this.constants);
 
     if (this.settings.DEBUG) {

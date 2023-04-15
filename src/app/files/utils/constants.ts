@@ -47,6 +47,8 @@ export class Constants {
   GEMINACION = 44;
   MOVILIDAD_PATOLOGICA = 45;
 
+  PULPOTOMIA = 46;
+
   isWritable(arg: any) {
     var match = false;
 
@@ -73,6 +75,8 @@ export class Constants {
     } else if (arg == this.SEMI_IMPACTACI0N) {
       match = true;
     } else if (arg == this.SUPERFICIE_DESGASTADA) {
+      match = true;
+    } else if (arg === this.PULPOTOMIA) {
       match = true;
     }
 

@@ -40,23 +40,14 @@ export class Damage {
 
     if (this.type == 0) {
       if (this.indicador == 'A') {
-        context.moveTo(this.rect.x, this.rect.y + this.rect.height);
-        context.lineTo(
-          this.rect.x + this.rect.width,
-          this.rect.y + this.rect.height / 2
-        );
+        context.moveTo(this.rect.x + 6, (this.rect.y + this.rect.height)-32);
+        context.lineTo(this.rect.x + this.rect.width, (this.rect.y + this.rect.height/2)+13  );
       } else if (this.indicador == 'C') {
-        context.moveTo(this.rect.x, this.rect.y + this.rect.height - 5);
-        context.lineTo(
-          this.rect.x + this.rect.width,
-          this.rect.y + this.rect.height / 2 + 15
-        );
+        context.moveTo(this.rect.x + 38, this.rect.y + this.rect.height - 35);
+        context.lineTo(this.rect.x + this.rect.width - 35, this.rect.y + (this.rect.height / 2) - 23);
       } else if (this.indicador == 'R') {
-        context.moveTo(this.rect.x, this.rect.y + this.rect.height - 30);
-        context.lineTo(
-          this.rect.x + this.rect.width,
-          this.rect.y + this.rect.height - 65
-        );
+        context.moveTo(this.rect.x + 34, this.rect.y + this.rect.height - 28);
+        context.lineTo(this.rect.x + this.rect.width - 33, this.rect.y + this.rect.height - 7);
       }
     } else {
       if (this.indicador == 'A') {
@@ -154,7 +145,14 @@ export class Damage {
     }
 
     context.lineWidth = 3;
-    context.strokeStyle = settings.COLOR_BLUE;
+    if (this.state === 0) {
+      context.strokeStyle = settings.COLOR_BLUE;
+      sessionStorage.setItem('damages', '0');
+    }
+    else {
+      context.strokeStyle = settings.COLOR_RED;
+      sessionStorage.setItem('damage', '1');
+    }
     context.stroke();
     context.restore();
   }
@@ -243,39 +241,18 @@ export class Damage {
   drawDienteExtruido(context: any, settings: any) {
     context.beginPath();
 
-    if (this.type == 0) {
-      // draw arrow head
-      context.moveTo(this.rect.x + 10, this.rect.y - 5);
-      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y);
-      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y - 5);
-
-      // draw arrow line
-      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y);
-      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y - 15);
+    if (this.type === 0) {
+      context.moveTo(this.rect.x + 10, this.rect.y - 10);
+      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y - 15);
+      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y - 10);
+      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y - 15);
+      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y);
     } else {
-      // draw arrow head
-      context.moveTo(this.rect.x + 10, this.rect.y + this.rect.height + 5);
-
-      context.lineTo(
-        this.rect.x + this.rect.width / 2,
-        this.rect.y + this.rect.height
-      );
-
-      context.lineTo(
-        this.rect.x + this.rect.width - 10,
-        this.rect.y + this.rect.height + 5
-      );
-
-      // draw arrow line
-      context.moveTo(
-        this.rect.x + this.rect.width / 2 - 1,
-        this.rect.y + this.rect.height + 5
-      );
-
-      context.lineTo(
-        this.rect.x + this.rect.width / 2 - 1,
-        this.rect.y + this.rect.height + 15
-      );
+      context.moveTo(this.rect.x + 10, this.rect.y + this.rect.height + 10);
+      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y + this.rect.height + 15);
+      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y + this.rect.height + 10);
+      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y + this.rect.height + 10);
+      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y + this.rect.height);
     }
 
     context.lineWidth = 3;
@@ -292,40 +269,19 @@ export class Damage {
   drawDienteIntruido(context: any, settings: any) {
     context.beginPath();
 
-    if (this.type == 0) {
-      // draw arrow head
-      context.moveTo(this.rect.x + 10, this.rect.y - 10);
-      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y - 15);
-      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y - 10);
-
-      // draw arrow line
-      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y - 15);
-      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y);
-    } else {
-      // draw arrow head
-      context.moveTo(this.rect.x + 10, this.rect.y + this.rect.height + 10);
-
-      context.lineTo(
-        this.rect.x + this.rect.width / 2,
-        this.rect.y + this.rect.height + 15
-      );
-
-      context.lineTo(
-        this.rect.x + this.rect.width - 10,
-        this.rect.y + this.rect.height + 10
-      );
-
-      // draw arrow line
-      context.moveTo(
-        this.rect.x + this.rect.width / 2 - 1,
-        this.rect.y + this.rect.height + 10
-      );
-
-      context.lineTo(
-        this.rect.x + this.rect.width / 2 - 1,
-        this.rect.y + this.rect.height
-      );
-    }
+    if (this.type === 0) {
+      context.moveTo(this.rect.x + 10, this.rect.y - 5);
+      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y);
+      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y - 5);
+      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y);
+      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y - 15);
+  } else {
+      context.moveTo(this.rect.x + 10, this.rect.y + this.rect.height + 5);
+      context.lineTo(this.rect.x + this.rect.width / 2, this.rect.y + this.rect.height);
+      context.lineTo(this.rect.x + this.rect.width - 10, this.rect.y + this.rect.height + 5);
+      context.moveTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y + this.rect.height + 5);
+      context.lineTo(this.rect.x + this.rect.width / 2 - 1, this.rect.y + this.rect.height + 15);
+  }
 
     context.lineWidth = 3;
 
@@ -393,44 +349,30 @@ export class Damage {
     posicion: any
   ) {
     if (indicador == 'IMP')
-      this.rect.highlightWithColor(context, '#ffffff', 1, indicador, posicion);
-    else this.rect.highlightWithColor(context, '#ffffff', 1);
+        this.rect.highlightWithColor(context, "#ffffff", 1, indicador, posicion);
+    else
+        this.rect.highlightWithColor(context, "#ffffff", 1);    
 
-    context.textAlign = 'center';
+    context.textAlign = "center";
     context.fillStyle = settings.COLOR_RED;
-
+    
     if (indicador == 'IMP') {
-      if (posicion > 10 && posicion < 29) {
-        context.fillText(
-          'RR',
-          this.rect.x + this.rect.width / 2,
-          this.rect.y + this.rect.height - 4 - 37
-        );
-      } else if (posicion > 30 && posicion < 49) {
-        context.fillText(
-          'RR',
-          this.rect.x + this.rect.width / 2,
-          this.rect.y + this.rect.height - 4 + 40
-        );
-      } else if (posicion > 50 && posicion < 66) {
-        context.fillText(
-          'RR',
-          this.rect.x + this.rect.width / 2,
-          this.rect.y + this.rect.height - 4 + 3
-        );
-      } else {
-        context.fillText(
-          'RR',
-          this.rect.x + this.rect.width / 2,
-          this.rect.y + this.rect.height - 4
-        );
-      }
-    } else {
-      context.fillText(
-        'RR',
-        this.rect.x + this.rect.width / 2,
-        this.rect.y + this.rect.height - 4
-      );
+        if (posicion > 10 && posicion < 29) {
+            context.fillText("RR", this.rect.x + this.rect.width / 2, (this.rect.y + this.rect.height - 4) - 37);
+        }
+        else if (posicion > 30 && posicion < 49) {
+            context.fillText("RR", this.rect.x + this.rect.width / 2, (this.rect.y + this.rect.height - 4) + 40);
+        }
+        else if (posicion > 50 && posicion < 66) {
+            context.fillText("RR", this.rect.x + this.rect.width / 2, (this.rect.y + this.rect.height - 4) + 3);
+        }
+        else {
+            context.fillText("RR", this.rect.x + this.rect.width / 2, this.rect.y + this.rect.height - 4);
+        }
+    }
+    else {
+        context.fillText("RR", this.rect.x + this.rect.width / 2, this.rect.y + this.rect.height - 4);
+        //context.restore();
     }
     context.restore();
   }
@@ -608,26 +550,17 @@ export class Damage {
   drawProtesisTotal(context: any, settings: any) {
     context.beginPath();
 
-    if (this.type == 0) {
-      context.moveTo(this.rect.x, this.rect.y + this.rect.height - 10);
+    if (this.type === 0) {        
+      context.moveTo(this.rect.x , this.rect.y + this.rect.height - 100);
+      context.lineTo(this.rect.x + this.rect.width , this.rect.y + this.rect.height - 100);
+      context.moveTo(this.rect.x, this.rect.y + this.rect.height - 95);
+      context.lineTo(this.rect.x + this.rect.width, this.rect.y + this.rect.height - 95);
 
-      context.lineTo(
-        this.rect.x + this.rect.width,
-        this.rect.y + this.rect.height - 10
-      );
-
-      context.moveTo(this.rect.x, this.rect.y + this.rect.height - 15);
-
-      context.lineTo(
-        this.rect.x + this.rect.width,
-        this.rect.y + this.rect.height - 15
-      );
-    } else {
-      context.moveTo(this.rect.x, this.rect.y + 10);
-      context.lineTo(this.rect.x + this.rect.width, this.rect.y + 10);
-
-      context.moveTo(this.rect.x, this.rect.y + 15);
-      context.lineTo(this.rect.x + this.rect.width, this.rect.y + 15);
+    } else {        
+      context.moveTo(this.rect.x, this.rect.y + 100);
+      context.lineTo(this.rect.x + this.rect.width, this.rect.y + 100);
+      context.moveTo(this.rect.x, this.rect.y + 95);
+      context.lineTo(this.rect.x + this.rect.width, this.rect.y + 95);
     }
 
     context.lineWidth = 2;
@@ -746,32 +679,26 @@ export class Damage {
   }
 
   drawCoronaTemporal(context: any, settings: any) {
-    this.rect.highlightWithColor(context, '#ffffff', 1);
-    context.textAlign = 'center';
+    this.rect.highlightWithColor(context, "#ffffff", 1);
+    context.textAlign = "center";
     context.fillStyle = settings.COLOR_RED;
-    context.fillText(
-      'CT',
-      this.rect.x + this.rect.width / 2,
-      this.rect.y + this.rect.height - 4
-    );
-    context.restore();
-    /**/
-
+    context.fillText("CT", this.rect.x + this.rect.width / 2, this.rect.y + this.rect.height - 4);
+    context.restore();        
     var cx = this.rect.x + this.rect.width / 2;
     var cy = 0;
 
     var radius = (settings.RECT_DIMEN * 3) / 2;
     context.beginPath();
 
-    if (this.type == 0) {
-      cx = cx - 17;
-      cy = this.rect.y + 16 + 115;
-    } else {
-      cx = cx - 17;
-      cy = this.rect.y + this.rect.height - 16 - 148;
+    if (this.type === 0) {     
+        cx = cx - 17;    
+        cy = (this.rect.y + 16) + 115;          
+    } else {     
+        cx = cx - 17;
+        cy = (this.rect.y + this.rect.height - 16) - 148;              
     }
 
-    context.rect(cx, cy, 34, 33); //jjallo 11092020
+    context.rect(cx, cy, 34, 33);
 
     context.lineWidth = 2;
     context.strokeStyle = settings.COLOR_RED;
