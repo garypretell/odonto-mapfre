@@ -24,11 +24,11 @@ export class Tooth {
   constants: any = null;
   state = 0;
 
-  state2 = 0;
-  state3 = 0;
-  indicador = 0;
-  contador = 0;
-  clic_check = 0;
+  // state2 = 0;
+  // state3 = 0;
+  // indicador = 0;
+  // contador = 0;
+  // clic_check = 0;
   /**/
   estado = '';
   x: any;
@@ -388,11 +388,13 @@ export class Tooth {
 
   drawCheckBoxes(context: any, settings: any, indicador: any) {
     for (var i = 0; i < this.checkBoxes.length; i++) {
-      if (this.checkBoxes[i].state == 1) {
+      if (this.checkBoxes[i].state === 1) {
+        //LESION DE CARIES DENTAL
+
         this.checkBoxes[i].fillColor(context, settings.COLOR_RED);
         this.checkBoxes[i].outline(context, '#000000');
 
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -400,11 +402,12 @@ export class Tooth {
             'T',
             indicador
           );
-      } else if (this.checkBoxes[i].state == 11) {
+      } else if (this.checkBoxes[i].state === 11) {
+        //RESTAURACION
         this.checkBoxes[i].fillColor(context, settings.COLOR_BLUE);
         this.checkBoxes[i].outline(context, '#000000');
 
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -412,7 +415,10 @@ export class Tooth {
             'T',
             indicador
           );
-      } else if (this.checkBoxes[i].state == 39) {
+        /**/
+      } else if (this.checkBoxes[i].state === 39) {
+        //TRATAMIENTO TEMPORAL
+
         var auxRect = new Rect();
         auxRect.x = this.checkBoxes[i].x + 1;
         auxRect.y = this.checkBoxes[i].y + 1;
@@ -421,7 +427,7 @@ export class Tooth {
         auxRect.outline(context, settings.COLOR_RED, 3.5);
         this.checkBoxes[i].outline(context, '#000000');
 
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -429,7 +435,10 @@ export class Tooth {
             'T',
             indicador
           );
-      } else if (this.checkBoxes[i].state == 40) {
+        /**/
+      } else if (this.checkBoxes[i].state === 40) {
+        //SELLANTES
+        console.log('pintado diente=', this.checkBoxes[i].state);
         var auxRect = new Rect();
         auxRect.x = this.checkBoxes[i].x + 1;
         auxRect.y = this.checkBoxes[i].y + 1;
@@ -438,7 +447,7 @@ export class Tooth {
         auxRect.outline(context, settings.COLOR_BLUE, 3.5);
         this.checkBoxes[i].outline(context, '#000000');
 
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -446,13 +455,50 @@ export class Tooth {
             'T',
             indicador
           );
-      } else if (
-        this.checkBoxes[i].state == -1 ||
-        this.checkBoxes[i].state == -11 ||
-        this.checkBoxes[i].state == -39
-      ) {
+      } else if (this.checkBoxes[i].state === -40) {
+        var auxRect = new Rect();
+        auxRect.x = this.checkBoxes[i].x + 1;
+        auxRect.y = this.checkBoxes[i].y + 1;
+        auxRect.width = this.checkBoxes[i].width - 2;
+        auxRect.height = this.checkBoxes[i].height - 2;
+        auxRect.outline(context, settings.COLOR_RED, 3.5);
         this.checkBoxes[i].outline(context, '#000000');
-      } else if (this.checkBoxes[i].state == -40) {
+        if (i === this.checkBoxes.length - 1)
+          this.checkBoxes[i].outline(
+            context,
+            '#000000',
+            undefined,
+            'T',
+            indicador
+          );
+        /**/
+      } else if (
+        this.checkBoxes[i].state === -1 ||
+        this.checkBoxes[i].state === -11 ||
+        this.checkBoxes[i].state === -39
+      ) {
+        //LESION DE CARIES DENTAL- RESTAURACION - TRATAMIENTO TEMPORAL
+        this.checkBoxes[i].outline(context, '#000000');
+      } else if (this.checkBoxes[i].state === 46) {
+        /**/
+        console.log('pintado diente=', this.checkBoxes[i].state);
+        var auxRect = new Rect();
+        auxRect.x = this.checkBoxes[i].x + 1;
+        auxRect.y = this.checkBoxes[i].y + 1;
+        auxRect.width = this.checkBoxes[i].width - 2;
+        auxRect.height = this.checkBoxes[i].height - 2;
+        auxRect.outline(context, settings.COLOR_BLUE, 3.5);
+        this.checkBoxes[i].outline(context, '#000000');
+
+        if (i === this.checkBoxes.length - 1)
+          this.checkBoxes[i].outline(
+            context,
+            '#000000',
+            undefined,
+            'T',
+            indicador
+          );
+      } else if (this.checkBoxes[i].state === -46) {
         var auxRect = new Rect();
         auxRect.x = this.checkBoxes[i].x + 1;
         auxRect.y = this.checkBoxes[i].y + 1;
@@ -461,7 +507,7 @@ export class Tooth {
         auxRect.outline(context, settings.COLOR_RED, 3.5);
         this.checkBoxes[i].outline(context, '#000000');
 
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -470,7 +516,7 @@ export class Tooth {
             indicador
           );
       } else {
-        if (i == this.checkBoxes.length - 1)
+        if (i === this.checkBoxes.length - 1)
           this.checkBoxes[i].outline(
             context,
             '#000000',
@@ -479,6 +525,7 @@ export class Tooth {
             indicador
           );
         else this.checkBoxes[i].outline(context, '#000000');
+        /**/
       }
     }
   }
@@ -489,7 +536,9 @@ export class Tooth {
     estado: any,
     indicador: any,
     posicion: any,
-    id: any
+    id: any,
+    data?: any,
+    variable?: any
   ) {
     for (var i = 0; i < this.damages.length; i++) {
       if (this.damages[i].id == 11) {
@@ -504,12 +553,15 @@ export class Tooth {
         }
       }
 
-      if (
-        this.damages[i].id == 28 ||
-        this.damages[i].id == 6 ||
-        this.damages[i].id == 2
-      ) {
+      if (this.damages[i].id == 6 || this.damages[i].id == 2) {
         if (this.damages[i].statetext == 1) {
+          this.textBox.statetext = 1;
+          this.textBox.render(context, settings.COLOR_RED);
+        }
+      }
+
+      if (this.damages[i].id === 28) {
+        if (this.damages[i].statetext === 1) {
           this.textBox.statetext = 1;
           this.textBox.render(context, settings.COLOR_RED);
         }
@@ -535,11 +587,30 @@ export class Tooth {
         id
       );
     if (
+      this.textBox.text == 'DNE' ||
+      this.textBox.text == 'DEX' ||
+      this.textBox.text == 'DAO'
+    ) {
+      this.textBox.render(
+        context,
+        settings.COLOR_BLUE,
+        estado,
+        indicador,
+        posicion,
+        id
+      );
+      this.textBox.state = 1;
+      this.textBox.state2 = 1;
+      this.textBox.state3 = 1;
+    }
+
+    if (
       this.textBox.text == 'MB' ||
       this.textBox.text == 'CE' ||
       this.textBox.text == 'CD' ||
       this.textBox.text == 'CDP'
     ) {
+      //this.textBox.render(context, settings.COLOR_RED);
       this.textBox.render(
         context,
         settings.COLOR_RED,
@@ -552,12 +623,8 @@ export class Tooth {
       this.textBox.state2 = 1;
       this.textBox.state3 = 1;
     }
-    if (
-      this.textBox.text == 'HP' ||
-      this.textBox.text == 'HM' ||
-      this.textBox.text == 'O' ||
-      this.textBox.text == 'D'
-    ) {
+
+    if (this.textBox.text == 'O' || this.textBox.text == 'PE') {
       this.textBox.render(
         context,
         settings.COLOR_RED,
@@ -570,6 +637,7 @@ export class Tooth {
       this.textBox.state2 = 1;
       this.textBox.state3 = 1;
     }
+
     if (
       this.textBox.text == 'M' ||
       this.textBox.text == 'D' ||
@@ -584,10 +652,43 @@ export class Tooth {
         indicador,
         posicion,
         id
-      ); 
+      );
       this.textBox.state = 1;
       this.textBox.state2 = 1;
       this.textBox.state3 = 1;
+    }
+
+    if (this.constants.PULPAR === 28) {
+      console.log(
+        'this.constants.PULPAR =>' + sessionStorage.getItem('damages')
+      );
+      if (this.textBox.label === this.id) {
+        if (this.textBox.text == 'TC' || this.textBox.text == 'PC') {
+          debugger;
+
+          if (sessionStorage.getItem('damages') === '0') {
+            this.textBox.render(
+              context,
+              settings.COLOR_BLUE,
+              estado,
+              indicador,
+              posicion,
+              id
+            );
+          } else if (sessionStorage.getItem('damages') === '1') {
+            this.textBox.render(
+              context,
+              settings.COLOR_RED,
+              estado,
+              indicador,
+              posicion,
+              id
+            );
+          } else if (sessionStorage.getItem('damages') === '2') {
+            this.textBox.text = '';
+          }
+        }
+      }
     }
 
     if (
@@ -708,6 +809,35 @@ export class Tooth {
     }
   }
 
+  Color(
+    textbox: any,
+    context: any,
+    settings: any,
+    estado: any,
+    indicador: any,
+    posicion: any,
+    id: any
+  ) {
+    if (textbox.statetext === 1)
+      textbox.render(
+        context,
+        settings.COLOR_RED,
+        estado,
+        indicador,
+        posicion,
+        id
+      );
+    else
+      textbox.render(
+        context,
+        settings.COLOR_BLUE,
+        estado,
+        indicador,
+        posicion,
+        id
+      );
+  }
+
   onTouch(touch: any) {
     if (touch) {
       this.y = this.highY;
@@ -730,31 +860,58 @@ export class Tooth {
       damageId == this.constants.DIENTE_EN_CLAVIJA ||
       damageId == this.constants.FUSION
     ) {
-      // set the damage to proper position
-      if (this.type == 0) {
-        damage = new Damage(
-          damageId,
-          this.rect.x,
-          this.rect.y + this.rect.height,
-          this.width,
-          60,
-          this.type,
-          direction,
-          state,
-          statetext
-        );
+      if (damageId === this.constants.DIENTE_EN_CLAVIJA) {
+        if (this.type === 0) {
+          damage = new Damage(
+            damageId,
+            this.rect.x,
+            this.rect.y + (this.rect.height - 140),
+            this.width,
+            60,
+            this.type,
+            direction,
+            state,
+            statetext
+          );
+        } else {
+          damage = new Damage(
+            damageId,
+            this.rect.x,
+            this.rect.y + 80,
+            this.width,
+            60,
+            this.type,
+            direction,
+            state,
+            statetext
+          );
+        }
       } else {
-        damage = new Damage(
-          damageId,
-          this.rect.x,
-          this.rect.y - 60,
-          this.width,
-          60,
-          this.type,
-          direction,
-          state,
-          statetext
-        );
+        if (this.type === 0) {
+          damage = new Damage(
+            damageId,
+            this.rect.x,
+            this.rect.y + this.rect.height,
+            this.width,
+            60,
+            this.type,
+            direction,
+            state,
+            statetext
+          );
+        } else {
+          damage = new Damage(
+            damageId,
+            this.rect.x,
+            this.rect.y - 60,
+            this.width,
+            60,
+            this.type,
+            direction,
+            state,
+            statetext
+          );
+        }
       }
     } else if (this.constants.isWritable(damageId)) {
       damage = new Damage(
@@ -797,24 +954,38 @@ export class Tooth {
   ) {
     var exists = false;
     var splicer = -1;
-    var direction = Number(iniDirection == undefined ? -1 : iniDirection);
+    var direction = Number(iniDirection === undefined ? -1 : iniDirection);
 
-    var indicador: any = '';
+    var indicador = '';
 
-    var state = Number(states == undefined ? 0 : states);
-    var statetext = Number(statetexts == undefined ? 0 : statetexts);
+    /*INICIO JJALLO*/
+    var state = Number(states === undefined ? 0 : states);
+    var statetext = Number(statetexts === undefined ? 0 : statetexts);
 
+    /*FIN JJALLO*/
+    //debugger;
+    // check to see if this damage exists
     if (this.damages.length >= 1) {
       for (var i = 0; i < this.damages.length; i++) {
+        //debugger;
         // found this damage
-        if (this.damages[i].id == damageId) {
+        if (this.damages[i].id === damageId) {
+          console.log('Splicing array for tooth ' + this.id);
           splicer = i;
           exists = true;
           direction = this.damages[i].direction;
           state = this.damages[i].state;
           this.damages[i].statetext = statetext;
 
+          /*jjallo 11092020*/
           indicador = this.damages[i].indicador;
+          //if (damageId == 2 && indicador == 0)
+          //{
+          //    splicer = -1;
+          //    exists = true;
+          //    this.damages[i].indicador = 'E';
+          //    indicador = this.damages[i].indicador;
+          //}
 
           if (
             damageId == this.constants.FRACTURA &&
@@ -874,6 +1045,36 @@ export class Tooth {
             exists = true;
             this.damages[i].indicador = '';
             state = 0;
+            //this.damages[i].state = 1;
+            //this.damages[i].statetext = 1;
+          }
+
+          //04042023 Inicio
+          if (damageId === this.constants.PULPAR) {
+            if (sessionStorage.getItem('damages') === '1') {
+              indicador = 'R';
+              this.damages[i].indicador = 'R';
+              state = 1;
+              this.damages[i].state = 1;
+              this.damages[i].statetext = 1;
+            }
+          }
+          if (damageId == this.constants.PULPAR && indicador == 'A') {
+            debugger;
+            splicer = 0;
+            exists = false;
+            this.damages[i].indicador = 'R';
+            state = 1;
+            this.damages[i].state = 1;
+            this.damages[i].statetext = 1;
+
+            sessionStorage.setItem('damages', '1'); //04042023 color Rojo
+          } else if (damageId == this.constants.PULPAR && indicador == 'R') {
+            splicer = -1;
+            exists = true;
+            this.damages[i].indicador = '';
+            state = 0;
+            sessionStorage.setItem('damages', '2');
           }
 
           break;
@@ -881,17 +1082,15 @@ export class Tooth {
       }
     }
 
-    //Cambio de direcci�n del hallazgo, s�lo si no es carga de inicio
     if (
-      iniDirection == undefined &&
-      (damageId == this.constants.GIROVERSION ||
-        damageId == this.constants.MIGRACION)
+      iniDirection === undefined &&
+      (damageId === this.constants.GIROVERSION ||
+        damageId === this.constants.MIGRACION)
     ) {
       if (exists) this.damages.splice(splicer, 1);
-      direction = direction == -1 ? 0 : direction == 0 ? 1 : -1;
-      exists = direction == -1;
+      direction = direction === -1 ? 0 : direction === 0 ? 1 : -1;
+      exists = direction === -1;
     }
-
     if (!exists) {
       if (this.surfaces > 0) {
         if (damageId == this.constants.REMANENTE_RADICULAR) {
@@ -899,29 +1098,33 @@ export class Tooth {
         }
 
         if (
-          (damageId == this.constants.CORONA_DEFINITIVA ||
-            damageId == this.constants.PULPAR) &&
+          damageId ==
+            this.constants
+              .CORONA_DEFINITIVA /*|| damageId == this.constants.PULPAR 04042023*/ &&
           this.damages.length > 0
         ) {
+          debugger;
           for (var i = 0; i < this.damages.length; i++) {
             if (
               this.damages[i].id == damageId &&
               this.damages[i].indicador == 'R'
             ) {
               this.damages[i].indicador = 'E';
-              indicador = 1;
+              indicador = '1';
               this.damages.splice(i, 1);
             } else {
-              indicador = 0;
+              indicador = '0';
             }
           }
         } else if (
-          (damageId == this.constants.CORONA_DEFINITIVA ||
-            damageId == this.constants.PULPAR) &&
+          damageId ==
+            this.constants
+              .CORONA_DEFINITIVA /*|| damageId == this.constants.PULPAR 04042023*/ &&
           this.damages.length == 0
         ) {
+          debugger;
           if (contador != 0 || contador != undefined) indicador = contador;
-          else indicador = 0;
+          else indicador = '0';
         }
 
         if (damageId == this.constants.CURACION && this.damages.length > 0) {
@@ -931,10 +1134,10 @@ export class Tooth {
               this.damages[i].indicador == 'R'
             ) {
               this.damages[i].indicador = 'E';
-              indicador = 1;
+              indicador = '1';
               this.damages.splice(i, 1);
             } else {
-              indicador = 0;
+              indicador = '0';
             }
           }
         } else if (
@@ -942,7 +1145,7 @@ export class Tooth {
           this.damages.length == 0
         ) {
           if (contador != 0 || contador != undefined) indicador = contador;
-          else indicador = 0;
+          else indicador = '0';
         }
 
         if (damageId == this.constants.FRACTURA && this.damages.length > 0) {
@@ -993,16 +1196,35 @@ export class Tooth {
           damageId == this.constants.IMPLANTE &&
           this.damages.length == 0
         ) {
-          indicador = state;
-          indicador = statetext;
+          indicador = state.toString();
+          indicador = statetext.toString();
         }
 
-        if (damageId == this.constants.PULPAR && this.damages.length > 0) {
+        if (damageId == this.constants.PULPAR && this.damages.length == 0) {
+          indicador = 'A';
+          state = statetext;
+          sessionStorage.setItem('damages', '0');
         } else if (
           damageId == this.constants.PULPAR &&
-          this.damages.length == 0
+          this.damages.length > 0
         ) {
-          indicador = 'E';
+          for (var i = 0; i < this.damages.length; i++) {
+            if (this.damages[i].id == damageId) {
+              indicador = this.damages[i].indicador;
+              this.damages[i].state = 1;
+              this.damages[i].statetext = 1;
+              break;
+            }
+          }
+          if (indicador == '') {
+            if (statetext == 1) {
+              indicador = '';
+              state = statetext;
+            } else if (statetext == 0) {
+              indicador = 'A';
+              state = statetext;
+            }
+          }
         }
 
         if (
@@ -1039,6 +1261,8 @@ export class Tooth {
         if (damageId == this.constants.MOVILIDAD_PATOLOGICA) {
           indicador = contador;
         }
+        /**/
+
         var d = this.createDamage(
           damageId,
           direction,
@@ -1049,6 +1273,7 @@ export class Tooth {
 
         if (d !== undefined) {
           this.damages.push(d);
+          console.log(this.tooth);
           if (damageId == 30 && indicador == 'R') {
             for (var i = 0; i < this.damages.length; i++) {
               if (
@@ -1060,6 +1285,21 @@ export class Tooth {
               }
             }
           }
+          /**/
+          if (damageId == 28 && indicador == 'R') {
+            for (var i = 0; i < this.damages.length; i++) {
+              if (
+                this.damages[i].id == damageId &&
+                this.damages[i].indicador == 'R'
+              ) {
+                debugger;
+                this.damages.splice(i, 1);
+
+                break;
+              }
+            }
+          }
+          //
         }
       }
     } else {
@@ -1128,7 +1368,8 @@ export class Tooth {
     settings: any,
     constants: any,
     indicador: any,
-    posicion: any
+    posicion: any,
+    data?: any, variable?: any
   ) {
     if (this.tooth) {
       this.textBox.drawLabel(context, indicador, posicion, this.id);
@@ -1174,7 +1415,7 @@ export class Tooth {
 
     // Draw textboxes
     if (this.tooth) {
-      this.drawTextBox(context, settings, 'TEX', indicador, posicion, this.id);
+      this.drawTextBox(context, settings, 'TEX', indicador, posicion, this.id, data, variable);
     }
 
     // show area of tooth or space, only in DEBUG MODE

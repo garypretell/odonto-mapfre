@@ -3,6 +3,7 @@ export class Renderer {
   width = 0;
   height = 0;
   settings = null;
+  variable = Array();
 
   drawSplash() {
     this.context.fillStyle = '#ffffff';
@@ -136,8 +137,8 @@ export class Renderer {
             posicion = 3;
         }
       }
-
-      data[i].render(this.context, settings, constants, indicador, posicion); //jjallo 26112020
+      this.variable = data[i];
+      data[i].render(this.context, settings, constants, indicador, posicion, this.variable);
     }
   }
 

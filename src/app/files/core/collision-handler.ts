@@ -1,6 +1,5 @@
-
 export class CollisionHandler {
-  constants: any = null
+  constants: any = null;
 
   setConstants(constants: any) {
     this.constants = constants;
@@ -77,6 +76,12 @@ export class CollisionHandler {
         checkBox.state = 40;
       } else {
         checkBox.state = -40;
+      }
+    } else if (newArg === this.constants.PULPOTOMIA) {
+      if (checkBox.state === 46 || checkBox.state === 0) {
+        checkBox.state = 46;
+      } else {
+        checkBox.state = -46;
       }
     }
   }
