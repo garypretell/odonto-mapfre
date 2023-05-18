@@ -1,0 +1,32 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "10012",
+            "des_detalle": "12 Cuotas"
+        },
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "10001",
+            "des_detalle": "1 Cuota"
+        },
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "10004",
+            "des_detalle": "4 Cuotas"
+        },
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "10006",
+            "des_detalle": "6 Cuotas"
+        }
+    ]
+}

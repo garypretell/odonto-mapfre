@@ -1,0 +1,32 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "cod_detalle": "4",
+            "des_detalle": "Ate",
+            "valor1": "",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "15",
+            "des_detalle": "Miraflores",
+            "valor1": "",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "16",
+            "des_detalle": "Lince",
+            "valor1": "",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "17",
+            "des_detalle": "San Isidro",
+            "valor1": "",
+            "valor2": ""
+        }
+    ]
+}

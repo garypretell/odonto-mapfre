@@ -1,1 +1,501 @@
-/* You can add global styles to this file, and also import other style files */
+/*Header*/
+
+header .bg-sombra {
+  -webkit-box-shadow: 0 1px 6px #d5d5d5;
+  -moz-box-shadow: 0 1px 6px #d5d5d5;
+  -ms-box-shadow: 0 1px 6px #d5d5d5;
+  -o-box-shadow: 0 1px 6px #d5d5d5;
+  box-shadow: 0 1px 6px #d5d5d5;
+}
+header .background-oim {
+  height: 55px;
+  float: left;
+  width: 50%;
+  background-color: #d81e05;
+}
+.triangulo_izq {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 8px solid #fff;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 19px;
+}
+header h2 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  color: #d81e05;
+}
+header .g-header-row3 {
+  height: 55px;
+  width: 50%;
+  background-color: #d81e05;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+header .titulo-datos-paciente {
+  font-size: 22px;
+}
+
+header .perfil-paciente {
+  display: block;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  position: relative;
+}
+.ico-arrow-rojo {
+  color: #d81e05;
+}
+.ico-arrow-blanco {
+  color: #fff;
+}
+header .perfil-paciente .pp-1 {
+  text-align: left;
+  color: #7e7e7e !important;
+  display: block;
+  font-size: 14px;
+  padding: 8px 0 8px 20px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+header .perfil-paciente .pp-1:hover {
+  text-align: left;
+  color: #fff !important;
+  display: block;
+  font-size: 14px;
+  padding: 8px 0 8px 20px;
+  line-height: 1.4;
+  background: #d81e05;
+}
+header .perfil-paciente .pp-2 {
+  text-align: left;
+  color: #fff !important;
+  display: none;
+  font-size: 14px;
+  padding: 8px 0 8px 20px;
+  line-height: 1.4;
+  background: #c71a03;
+  position: absolute;
+  float: none;
+  width: 100%;
+  z-index: 9999;
+}
+.pp-2-active {
+  display: block !important;
+}
+.ico-imprimir {
+  display: inline-block;
+  height: auto;
+}
+.ico-imprimir .ico-print i.material-icons {
+  display: block;
+}
+a.ico-print {
+  padding: 15px 15px;
+  display: inline-block;
+  color: #757575;
+}
+a.ico-print:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+/*Fin Header*/
+
+/*Main*/
+/* Titulo, version, estado */
+.g-section-inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #eaeaea;
+}
+.g-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #4c4c4c;
+}
+.g-title h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.titulo-fechas {
+  display: block;
+  font-size: 11px;
+  position: absolute;
+  top: -7px;
+}
+.txt-fechas {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  box-shadow: none;
+  padding: 10px 1px 6px;
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 0;
+}
+i.select__ico--arrow {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+}
+.estado-paciente {
+  font-size: 14px;
+  padding-top: 4px;
+  position: relative;
+}
+.paciente-activo {
+  background: #f4f4f4;
+  display: inline-block;
+  padding: 5px 15px;
+  color: #343a40;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: center;
+  right: 0;
+}
+.paciente-inactivo {
+  background: #f4f4f4;
+  display: inline-block;
+  padding: 5px 15px;
+  color: #f13737;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: center;
+  right: 0;
+}
+/* Fin Titulo, version, estado */
+/* Filtros lado izquierdo */
+.g-col-filter {
+  background-color: #f4f4f4;
+  bottom: auto;
+  top: auto;
+  padding-bottom: 20px;
+  transition: all 0.5s ease;
+  padding-top: 20px;
+  position: relative;
+  left: auto;
+  right: auto;
+  z-index: 6;
+  font-size: 14px;
+}
+.g-col-filter .cnt-title,
+.g-col-filter .cnt-sub-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.g-btn.block {
+  display: block;
+  width: 100%;
+}
+/* Fin Filtros lado izquierdo */
+/*Dentadura*/
+.box-dentadura-superior,
+.box-dentadura-inferior {
+  text-align: center;
+}
+.box-dentadura-superior .box-adulto-sup {
+  display: inline-block;
+  width: 640px;
+}
+.box-dentadura-superior .box-nino-sup {
+  display: inline-block;
+  width: 400px;
+}
+.box-dentadura-inferior .box-adulto-inf {
+  display: inline-block;
+  width: 640px;
+  margin-top: -6px;
+}
+.box-dentadura-inferior .box-nino-inf {
+  display: inline-block;
+  width: 400px;
+}
+.form-dental {
+  width: 40px;
+  margin: 0;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  color: #007ffd;
+}
+.form-dental::placeholder {
+  color: #d4d4d4;
+}
+.titulo-txtarea {
+  display: block;
+  font-size: 11px;
+}
+.dentadura {
+  text-align: center;
+}
+.dentadura ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.dentadura ul.grupo-denta-adulto-sup {
+  width: 474px;
+  margin-bottom: -6px;
+  padding-top: 35px;
+}
+.dentadura ul.grupo-denta-nino-sup {
+  width: 296px;
+  margin-bottom: -6px;
+  padding-top: 35px;
+}
+.dentadura ul.grupo-denta-adulto-inf {
+  width: 491px;
+  padding-bottom: 40px;
+}
+.dentadura ul.grupo-denta-nino-inf {
+  width: 324px;
+  padding-bottom: 40px;
+}
+.dentadura ul li {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.dentadura hr {
+  margin: 0 auto;
+  padding: 0;
+  border-top: 1px solid #757575;
+}
+.dentadura-permanente .dentadura hr {
+  width: 491px;
+}
+.dentadura-temporal .dentadura hr {
+  width: 324px;
+}
+ul.grupo-denta-adulto-inf li .numero-dentadura,
+ul.grupo-denta-adulto-sup li .numero-dentadura,
+ul.grupo-denta-nino-inf li .numero-dentadura,
+ul.grupo-denta-nino-sup li .numero-dentadura {
+  border-right: 1px solid #757575;
+}
+ul.grupo-denta-adulto-inf li:last-child .numero-dentadura,
+ul.grupo-denta-adulto-sup li:last-child .numero-dentadura,
+ul.grupo-denta-nino-inf li:last-child .numero-dentadura,
+ul.grupo-denta-nino-sup li:last-child .numero-dentadura {
+  border-right: 0;
+}
+ul.grupo-denta-adulto-inf li:nth-child(8) .numero-dentadura,
+ul.grupo-denta-adulto-sup li:nth-child(8) .numero-dentadura {
+  border-right: 0;
+}
+ul.grupo-denta-nino-inf li:nth-child(5) .numero-dentadura,
+ul.grupo-denta-nino-sup li:nth-child(5) .numero-dentadura {
+  border-right: 0;
+}
+.numero-dentadura {
+  font-size: 14px;
+}
+/*Fin Dentadura*/
+
+/* Superficie Dentadura */
+.superficie-5,
+.superficie-4 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 0 auto;
+}
+.dentadura input[type="checkbox"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #757575;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.dentadura input[type="checkbox"]:checked {
+  /*background: red;*/
+}
+.dentadura input[type="checkbox"]:focus {
+  outline: none;
+}
+.dentadura .superficie-5 input[type="checkbox"].dtop,
+.dentadura .superficie-4 input[type="checkbox"].dtop {
+  top: 1px;
+  left: 8px;
+}
+.dentadura .superficie-5 input[type="checkbox"].dleft {
+  top: 8px;
+  left: 1px;
+}
+.dentadura .superficie-5 input[type="checkbox"].dright {
+  right: 1px;
+  top: 8px;
+}
+.dentadura .superficie-5 input[type="checkbox"].dbottom,
+.dentadura .superficie-4 input[type="checkbox"].dbottom {
+  bottom: 1px;
+  left: 8px;
+}
+.dentadura .superficie-5 input[type="checkbox"].dcenter {
+  top: 8px;
+  left: 8px;
+}
+.dentadura .superficie-4 input[type="checkbox"].dleft {
+  top: 8px;
+  left: 4px;
+}
+.dentadura .superficie-4 input[type="checkbox"].dright {
+  right: 5px;
+  top: 8px;
+}
+
+.caries {
+  background: red;
+}
+
+.cured {
+  background: red;
+}
+
+/* Fin Superficie Dentadura */
+
+/*Botones*/
+.g-btn-verde {
+  background-color: #749806;
+  border: 2px solid #749806;
+  color: #ffffff;
+}
+.g-btn-verde:hover {
+  background-color: #607f03;
+  text-decoration: none;
+  color: #fff;
+}
+.g-btn-blanco {
+  background-color: #fff;
+  border: 2px solid #888383;
+  color: #888383;
+}
+.g-btn-blanco:hover {
+  background-color: #888383;
+  text-decoration: none;
+  color: #fff;
+}
+.g-btn {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  line-height: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700 !important;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 5px;
+  overflow: hidden;
+  transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+}
+.grupo-switch {
+  display: block;
+  vertical-align: top;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.nav.tabs-switch {
+  width: 300px;
+  margin: 0 auto;
+  display: inline-block;
+  background: #fff;
+  border: 2px solid #888383;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.nav.tabs-switch .btn-switch {
+  background-color: #fff;
+  color: #888383;
+  width: 50%;
+  float: left;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.nav.tabs-switch .btn-switch .b-switch {
+  display: block;
+  line-height: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700 !important;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  color: #757575;
+  transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+}
+.nav.tabs-switch .btn-switch .b-switch:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #888383;
+}
+.nav.tabs-switch .btn-switch .b-switch.active {
+  color: #fff;
+  background-color: #888383;
+  text-decoration: none;
+}
+/*Fin botones*/
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.scrollable_div_128 {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 128px;
+  width: 100%;
+}

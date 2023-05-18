@@ -1,0 +1,136 @@
+#validate-data {
+  background: url("../assets/images/validate-data-background.jpg") center center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  overflow-y: auto;
+  .container-fluid:before {
+    position: absolute;
+    content: ' ';
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(#fff, .9);
+  }
+  @include media-breakpoint-down(md) {
+    overflow-y: unset;
+    &:before {
+      top: 0;
+      z-index: 1;
+    }
+    & > .container-fluid {
+      z-index: 9;
+    }
+  }
+  .step-data-one{
+    height: 70%;
+  }
+  .step-border{
+    border-right: 1px solid rgba(154, 182, 43, 0.5);
+    @include media-breakpoint-down(xs) {
+      border: none;
+    }
+  }
+  .step-content{
+    display: none;
+    .form-group {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .step-active{
+    display: inherit;
+  }
+  .form-validate .submit {
+    height: 0px;
+    text-align: center;
+    .btn-submit{
+      margin-top: 25px;
+      outline: none;
+      @include media-breakpoint-down(xs) {
+        width: 100% !important;
+      }
+    }
+    @include media-breakpoint-down(xs) {
+      height: unset;
+    }
+  }
+  .col_12_mobile{
+    @include media-breakpoint-down(xs) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+    &.card-body{
+      @include media-breakpoint-down(xs) {
+        padding-top: 0px !important;
+      }
+    }
+  }
+  .flex_h_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include media-breakpoint-down(xs) {
+      display: flex;
+      flex-direction: row;
+    }
+    .step-data {
+      @include media-breakpoint-down(xs) {
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .circle-step{
+        &:before{
+          @include media-breakpoint-down(xs) {
+            left: calc(50% - 13.5px);
+          }
+        }
+        i.line_data{
+          @include media-breakpoint-down(xs) {
+            width: calc(100% - 26px);
+            height: 1px;
+            left: calc(50% + 13px);
+            top: 19px;
+          }
+        }
+      }
+      .change-step{
+        p{
+          @include media-breakpoint-down(xs) {
+            margin-left: 0px !important;
+            margin-top: 15px !important;
+            font-size: 0.75rem;
+          }
+        }
+      }
+      &.step-data-one{
+        @include media-breakpoint-down(xs) {
+          height: 0px;
+        }
+      }
+      &.step-active{
+        .circle-step{
+          &:before{
+            @include media-breakpoint-down(xs) {
+              //background-color: #99B52B;
+            }
+          }
+        }
+        a{
+          @include media-breakpoint-down(xs) {
+            //color: white;
+          }
+        }
+      }
+    }
+  }
+  .left_mobile{
+    @include media-breakpoint-down(xs) {
+      text-align: left !important;
+    }
+  }
+}

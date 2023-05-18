@@ -1,0 +1,33 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/grid";
+
+
+@import "themes/md-mapfre";
+
+@import "themes/mapfre/common";
+@import "themes/mapfre/home";
+@import "themes/mapfre/validate_data";
+@import "themes/mapfre/step_third";
+@import "themes/mapfre/step_fourth";
+@import "themes/mapfre/step_fifth";
+@import "themes/mapfre/step_sixth";
+@import "themes/mapfre/step_seventh";
+@import "themes/mapfre/step_eighth";
+@import "themes/mapfre/step_ninth";
+@import "themes/mapfre/step_tenth";
+@import "themes/mapfre/step_eleventh";
+@import "themes/mapfre/gracias-bley";
+@import "themes/mapfre/step_thanks";
+
+
+
+@import "nvt";

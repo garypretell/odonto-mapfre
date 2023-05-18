@@ -1,0 +1,26 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "cod_detalle": "PE",
+            "des_detalle": "Perú",
+            "valor1": "N",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "VE",
+            "des_detalle": "Venezuela",
+            "valor1": "S",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "CO",
+            "des_detalle": "Colombia",
+            "valor1": "S",
+            "valor2": ""
+        }
+    ]
+}

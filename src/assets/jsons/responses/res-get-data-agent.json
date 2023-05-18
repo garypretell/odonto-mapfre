@@ -1,0 +1,11 @@
+{
+    "datos": {
+        "apellidos_agente": "FIESTAS DAVILA",
+        "codigo_agente": "27492",
+        "nombres_agente": "JEAN PAUL"
+    },
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    }
+}

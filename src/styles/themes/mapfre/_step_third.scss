@@ -1,0 +1,157 @@
+#step-third {
+  background: url("../assets/images/validate-data-background.jpg") center center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  overflow-y: auto;
+  .container-fluid:before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(#fff, .9);
+  }
+  @include media-breakpoint-down(md) {
+    overflow-y: auto;
+  }
+  .info-steps{
+    font-size: 0.75rem;
+    color: #4D4D4D;
+  }
+  .form-validate .submit {
+    height: 5px;
+    text-align: center;
+    .btn-submit{
+      margin-top: 5px;
+      width: 25%;
+    }
+  }
+  .options {
+    .radio {
+      position: relative;
+      input[name=insured_amount] {
+        opacity: 0;
+        position: absolute;
+        &:checked ~ label {
+          background: white;
+          color: unset;
+          border: 1px solid #BCBCBC;
+          transition: .5s;
+          .text-green-select {
+            color: #fff !important;
+            transition: .5s;
+          }
+          .green-side{
+            background-color: #99B52B;
+            color: white;
+            border-radius: 5px 5px 0px 0px;
+          }
+        }
+        &~ label{
+          margin: 0px;
+          padding: 0px;
+          margin-bottom: 1em;
+          .green-side {
+            padding: .75em 1em;
+            border-bottom: 1px solid #BCBCBC;
+          }
+          .white-side {
+            padding-bottom: .75em;
+            @include media-breakpoint-down(xs) {
+              padding-top: 1em;
+              padding-left: 1em;
+              padding-right: 1em;
+            }
+          }
+          .text-green {
+            color: #99B52B !important;
+            transition: .5s;
+            @include media-breakpoint-down(xs) {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+      label {
+        border: 1px solid #BCBCBC;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        padding: .75em .5em;
+        font-weight: 600;
+        font-size: .8em;
+        cursor: pointer;
+        transition: .5s;
+      }
+      small{
+        @include media-breakpoint-down(xs) {
+          font-size: 100%;
+        }
+        &.h5{
+          @include media-breakpoint-down(xs) {
+            font-size: 80% !important;
+          }
+        }
+      }
+    }
+  }
+  .third-step {
+    .options {
+      border: 1px solid rgba(112, 112, 112, 0.25);
+      border-radius: 5px;
+      padding: 13px 24px;
+      background-color: rgba(233, 236, 238, 0.25);
+      margin: unset;
+    }
+  }
+  .third-step-child {
+    .options {
+      border: 1px solid rgba(112, 112, 112, 0.25);
+      border-radius: 5px;
+      padding: 13px 24px;
+      background-color: rgba(233, 236, 238, 0.25);
+      margin: unset;
+    }
+  }
+  .third-step-parent a {
+    text-align: right !important;
+    display: block;
+    color: #4D4D4D;
+    text-decoration: underline;
+    font-size: 75%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+
+  .terms > div{
+    margin: 0px auto 20px auto;
+    a{
+      cursor: pointer;
+    }
+  }
+  .modal-dialog {
+    max-width: 70%;
+    @include media-breakpoint-down(xs) {
+      max-width: 98%;
+    }
+  }
+  .text-green-select {
+    color: #99B52B !important;
+  }
+	.new_vm{
+		bottom: -10px;
+		right: 0px;
+		text-decoration: underline;
+		color: #4D4D4D;
+    font-weight: 400;
+    font-size: .8em;
+    cursor: pointer;
+    
+    @include media-breakpoint-down(xs) {
+      display: none;
+    }
+	}
+}

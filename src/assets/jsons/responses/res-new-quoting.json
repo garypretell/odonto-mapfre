@@ -1,0 +1,10 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "datos-personales:1000",
+        "expires_in": "300"
+    }
+}

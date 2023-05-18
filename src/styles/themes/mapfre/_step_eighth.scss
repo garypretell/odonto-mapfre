@@ -1,0 +1,23 @@
+#step-eighth {
+  background: url("../assets/images/validate-data-background.jpg") center center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  overflow-y: auto;
+  .container-fluid:before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(#fff, .9);
+  }
+  @include media-breakpoint-down(md) {
+    overflow-y: auto;
+  }
+  .form-group > label{
+    text-transform: uppercase;
+  }
+}

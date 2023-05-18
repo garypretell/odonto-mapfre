@@ -1,0 +1,32 @@
+{
+    "resumen": [
+        {
+            "campo_orden": "1",
+            "campo_descripcion": "Nombres",
+            "campo_valor": "HENRY ALEXEY"
+        },
+        {
+            "campo_orden": "2",
+            "campo_descripcion": "Apellidos",
+            "campo_valor": "FIESTAS ECHEVARRIA"
+        },
+        {
+            "campo_orden": "2",
+            "campo_descripcion": "Fecha Nacimiento",
+            "campo_valor": "04/09/1987"
+        },
+        {
+            "campo_orden": "4",
+            "campo_descripcion": "Direccion",
+            "campo_valor": "PROLONGACION ARICA 2272"
+        }
+    ],
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "solicitud": "cGFnbzozNzg2MjU2",
+        "expires_in": "300"
+    }
+}

@@ -1,0 +1,78 @@
+body{
+    color: #2D373D !important;
+}
+header{
+    padding: 12px 0;
+}
+header .logo{
+    padding-top: 11px;
+    padding-bottom: 11px; 
+}
+header .logo img{
+    float: left;
+    clear: right;
+    width: 152px;
+    height: 18px;
+}
+header .logo h1{
+    color: #2D373D;
+    font-size: 14px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: left;
+    font-weight: 600;
+    line-height: 24px;
+}
+header span{
+    float: left;
+    clear: right;
+    display: inline-block;
+}
+header .ctaWhatsapp a{
+    display: inline-block;
+    line-height: 24px;
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 40px;
+}
+header .ctaWhatsapp a:hover{
+    background-color: #E8EBED;
+}
+header .ctaWhatsapp a span{
+    display: none;
+}
+header .ctaWhatsapp a img{
+    float: left;
+    clear: right;
+}
+@media only screen and (min-width: 481px) {
+    header{
+        padding: 12px 0;
+    }
+    header .logo{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    header .logo img{
+        width: 202px;
+        height: 24px;
+    }
+    header .ctaWhatsapp a{
+        display: inline-block;
+        line-height: 24px;
+        padding: 12px;
+        height: auto;
+    }
+    header .ctaWhatsapp a span{
+        margin: 0 8px 0 0;
+        color: #2D373D;
+        display: inline-block;
+    }
+}
+@media only screen and (min-width: 820px) {
+
+}

@@ -1,0 +1,121 @@
+#step-ninth {
+  position: relative;
+  .jumbotron {
+    margin: 0 -24px;
+    background-image: url("../assets/images/header-payment.jpg");
+    background-size: cover;
+    position: relative;
+    @include media-breakpoint-down(xs) {
+      margin: 0 -16px;
+    }
+    &:before {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#fff, .7);
+    }
+  }
+  .list-inline-item{
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  // .list-inline-item:not(:last-child){
+  //   margin-right: 0rem;
+  // }
+  .section-terms {
+    background: #F7F7F7;
+    border-top: 1px solid rgba(#979797, .15);
+    .nav {
+      margin-bottom: 2em;
+      li {
+        margin-right: 3em;
+        a {
+          color: #4D4D4D;
+          font-size: .85em;
+          background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MDcuNDM3IDQwNy40MzciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQwNy40MzcgNDA3LjQzNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+Cjxwb2x5Z29uIHBvaW50cz0iMzg2LjI1OCw5MS41NjcgMjAzLjcxOCwyNzMuNTEyIDIxLjE3OSw5MS41NjcgMCwxMTIuODE1IDIwMy43MTgsMzE1Ljg3IDQwNy40MzcsMTEyLjgxNSAiIGZpbGw9IiMwMDAwMDAiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) no-repeat center right;
+          background-size: 8px;
+          padding-right: 20px;
+          &.active {
+            color: #B62317;
+          }
+        }
+      }
+    }
+    .tab-content {
+      background: #E0E0E0;
+      border-radius: 5px;
+      padding: 2em;
+    }
+  }
+  p{
+    font-size: 1rem;
+  }
+}
+#step-ninth-thankyou{
+  position: relative;
+  .jumbotron {
+    margin: 0 -24px;
+    background-image: url("../assets/images/header-payment.jpg");
+    background-size: cover;
+    position: relative;
+    @include media-breakpoint-down(xs) {
+      margin: 0 -16px;
+      background-position: right;
+    }
+    &:before {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#fff, .7);
+    }
+    p{
+      @include media-breakpoint-down(xs) {
+        font-size: 0.875rem;
+      }
+    }
+  }
+  .table th, .table td{
+    padding: 0.85rem;
+  }
+  .section-how {
+    img{
+      width: auto;
+      height: 50px;
+      @include media-breakpoint-down(xs) {
+        height: auto;
+      }
+    }
+    i.line_how {
+      width: 50%;
+      top: 80px;
+      left: 70%;
+      @include media-breakpoint-down(xs){
+        width: 1px;
+        height: 25px;
+        top: calc(100% + 6px);
+        left: 12%;
+      }
+    }
+    p{
+      br{
+        @include media-breakpoint-down(xs) {
+          content: ' ';
+        }
+      }
+    }
+  }
+  .list-inline-item a:hover {
+    text-decoration: none;
+  }
+}

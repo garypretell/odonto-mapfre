@@ -1,0 +1,40 @@
+{
+    "beneficiarios": [
+        {
+            "num_documento": "45604596",
+            "apellidos": "Cabrejos",
+            "tip_parentesto": "MA",
+            "tip_doc": "DNI",
+            "det_parentesco": null,
+            "monto": "0",
+            "parentesco": "MADRE",
+            "id_beneficiario": 1,
+            "ind_pep": "N",
+            "porcentaje": "0",
+            "orden": 5,
+            "nombres": "Kathia"
+        },
+        {
+            "num_documento": "47474747",
+            "apellidos": "AGUILAR SALDARRIAGA",
+            "tip_parentesto": "PA",
+            "tip_doc": "DNI",
+            "det_parentesco": null,
+            "monto": "0",
+            "parentesco": "PADRE",
+            "id_beneficiario": 2,
+            "ind_pep": "N",
+            "porcentaje": "0",
+            "orden": 6,
+            "nombres": "Miwller"
+        }
+    ],
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "solicitud": "Y2VzaW9uLWJlbmVmaWNpYXJpb3M6Mzc4NjYyMw==",
+        "expires_in": "300"
+    }
+}

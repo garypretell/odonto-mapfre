@@ -1,0 +1,95 @@
+*::selection{
+  background: #d81e05;
+  color: #fff;
+}
+.btn{
+  border-radius: 6px !important;
+}
+.btn-primary{
+  background-color: #d81e05 !important;
+  border-color: #d81e05 !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #d81e0560 !important;
+}
+.btn-primary:hover {
+  background-color: #BE0F0F !important;
+}
+.btn-lg {
+  font-weight: 500 !important;
+  font-size: 1.1rem !important;
+  padding: .6rem 1rem !important;
+}
+.form-control:focus {
+  border-color: #526570 !important;
+  box-shadow: 0 0 0 0.2rem #52657012 !important;
+}
+.custom-select:focus {
+  border-color: #526570 !important;
+  box-shadow: 0 0 0 0.2rem #52657012 !important;
+}
+a{
+  color: #d81e05 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+@media only screen and (min-width: 481px) {   
+
+}
+@media only screen and (min-width: 820px) {
+
+}
+
+/*.skylo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: none;
+    z-index: 1000;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.skylo .bar{
+  width:0%;
+  height: 5px;
+  margin:0;
+  position:relative;
+}
+
+.skylo span {
+  width: 50px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -moz-box-shadow: #99b52b 1px 0 10px 1px;
+    -ms-box-shadow: #99b52b 1px 0 10px 1px;
+    -webkit-box-shadow: #99b52b 1px 0 10px 1px;
+    box-shadow: #99b52b 1px 0 10px 1px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.progress-bar-info {
+  background-color: #99b52b !important;
+}
+
+.progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+}
+
+.progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+}*/

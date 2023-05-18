@@ -1,0 +1,32 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "expires-in": "300",
+        "solicitud": "ZGF0b3MtY29udGFjdG86Mzc4NjU0Ng=="
+    },
+    "resumen": [
+        {
+           "campo_orden":1,
+           "campo_descripcion":"Medio de pago",
+           "campo_valor":"VISA"
+        },
+        {
+           "campo_orden":2,
+           "campo_descripcion":"Fecha de pago",
+           "campo_valor":"15 de Octubre del 2019"
+        },
+        {
+           "campo_orden":3,
+           "campo_descripcion":"Nº de tarjeta",
+           "campo_valor":"4232 **** **** *123"
+        },
+        {
+           "campo_orden":4,
+           "campo_descripcion":"Total pagado",
+           "campo_valor":"S/ 59"
+        }
+    ]
+}

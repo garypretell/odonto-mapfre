@@ -1,0 +1,26 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "cod_detalle": "5",
+            "des_detalle": "Lima",
+            "valor1": "",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "6",
+            "des_detalle": "Piura",
+            "valor1": "",
+            "valor2": ""
+        },
+        {
+            "cod_detalle": "7",
+            "des_detalle": "Cuzco",
+            "valor1": "",
+            "valor2": ""
+        }
+    ]
+}

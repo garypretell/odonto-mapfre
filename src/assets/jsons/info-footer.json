@@ -1,0 +1,73 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "PLEGABLE1",
+            "tipo": "TITLE",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "10",
+            "valor_2": "<p><a class=\"text-underline\" href=\"assets/pdf/cg-seguro-personal-accidentes.pdf\" target=\"_blank\">* Condicionado general de contratación</a></p><p><a class=\"text-underline\" href=\"assets/pdf/cgc-seguro-personal-accidentes.pdf\" target=\"_blank\">* Condicionado de producto Convida MAPFRE</a></p>",
+            "valor_1": "Coberturas y Exclusiones",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PLEGABLE2",
+            "tipo": "TITLE",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "20",
+            "valor_2": "<p>Los precios expuestos pertenecen a los planes del producto Convida MAPFRE. La cotización se realiza sobre la base de los datos personales ingresados por el contratante. El contratante acepta que los datos personales son totalmente verídicos. Para conocer y/o editar sus Beneficiarios deberá llamar al 213-3333 e indicar el número de póliza de Seguro de Vida que se compró a través de la página web y número de DNI del contratante. Puede editar a sus Beneficiarios en cualquier comento.</p>",
+            "valor_1": "Términos y Condiciones",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PLEGABLE3",
+            "tipo": "TITLE",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "30",
+            "valor_2": "<ul class=\"\"footer-info\"\"> <li> <i class=\"\"fas fa-phone-volume\"\" aria-hidden=\"\"true\"\"></i> <div class=\"\"footer-text\"\"> <p><strong>Llámanos a:</strong> </p><div class=\"\"footer-tel\"\"> <p>Lima: <a href=\"\"tel:012133333\"\">(01) 213-3333</a></p><p>Provincias: <a href=\"\"tel:080111133\"\">0801-1-1133</a></p></div></div></li><li> <i class=\"\"far fa-envelope\"\" aria-hidden=\"\"true\"\"></i> <div class=\"\"footer-text\"\"> <p><strong>Escríbenos a: </strong><a href=\"\"mailto:si24@mapfre.com.pe\"\">si24@mapfre.com.pe</a></p><!--div class=\"\"footer-tel\"\"> <p></p></div--> </div></li><li> <i class=\"\"fas fa-map-marker-alt\"\" aria-hidden=\"\"true\"\"></i> <div class=\"\"footer-text\"\"> <p><strong>Nuestras oficinas: </strong><a href=\"\"https://seguros.mapfre.com.pe/nuestras-oficinas\"\" class=\"\"footer-ingresa\"\">Ingresa aquí</a></p><!--div class=\"\"footer-tel\"\"> <p></p></div--> </div></li></ul>",
+            "valor_1": "Contáctanos",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/footer-visa.svg",
+            "seccion": "SEGURIDAD",
+            "tipo": "IMG",
+            "cod_parametro": "5",
+            "valor_html": "",
+            "orden": "40",
+            "valor_2": "",
+            "valor_1": "Verified By VISA",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/footer-master.svg",
+            "seccion": "SEGURIDAD",
+            "tipo": "IMG",
+            "cod_parametro": "6",
+            "valor_html": "",
+            "orden": "40",
+            "valor_2": "",
+            "valor_1": "MasterCard SecureCode",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

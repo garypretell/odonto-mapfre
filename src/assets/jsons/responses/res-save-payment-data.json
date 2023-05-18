@@ -1,0 +1,10 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "expires-in": "300",
+        "solicitud": "ZGF0b3MtY29udGFjdG86Mzc4NjU0Ng=="
+    }
+}

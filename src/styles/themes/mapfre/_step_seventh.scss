@@ -1,0 +1,77 @@
+#step-seventh {
+  position: relative;
+  .jumbotron {
+    margin: 0 -24px;
+    background: url("../assets/images/header-payment.jpg") center right;
+    background-size: cover;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#fff, .7);
+    }
+    @include media-breakpoint-down(xs) {
+      margin: 0px -16px;
+      padding: 0px;
+    }
+    h3{
+      @include media-breakpoint-down(xs) {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem  !important;
+      }
+    }
+  }
+  .options {
+    .radio {
+      height: 100%;
+      input {
+        &:checked {
+          & ~ label {
+            background: #fff !important;
+            border: 2px solid #99B52B !important;
+            transition: 0s;
+            color: $body-color;
+          }
+        }
+      }
+      label {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        transition: 0s;
+        border: 2px solid #fff !important;
+      }
+    }
+  }
+  span.radio-payment {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    margin-right: 15px;
+    &.payment-active{
+      &:before{
+        content: '';
+        width: 14px;
+        height: 14px;
+        background-color: #B62317;
+        position: absolute;
+        border-radius: 50%;
+        left: 4px;
+        top: 4px;
+      }
+    }
+  }
+  .overbg{
+    @include media-breakpoint-down(xs) {
+      margin-top: -1rem  !important;
+    }
+  }
+}

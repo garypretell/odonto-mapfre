@@ -1,3 +1,63 @@
-/* canvas {
-    border: 2px solid green;
-  } */
+.contenedor {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "oim oim"
+    "cabecera cabecera"
+    "diagnostico odonto"
+    "hallazgo odonto"
+    "hallazgo formulario";
+}
+
+.contenedor .oim {
+  grid-area: oim;
+  /* border-style: dotted; */
+}
+
+.contenedor .cabecera {
+  grid-area: cabecera;
+  border-style: dotted;
+}
+
+.contenedor .diagnostico {
+  grid-area: diagnostico;
+  border-style: dotted;
+}
+
+.contenedor .hallazgo {
+  grid-area: hallazgo;
+  border-style: dotted;
+}
+
+.contenedor .formulario {
+  grid-area: formulario;
+  /* border-style: dotted; */
+}
+
+.contenedor .odonto {
+  grid-area: odonto;
+  /* border-style: dotted; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .contenedor {
+    grid-template-areas:
+      "oim oim"
+      "cabecera cabecera"
+      "diagnostico diagnostico"
+      "hallazgo hallazgo"
+      "odonto odonto"
+      "formulario formulario";
+  }
+
+  #canvas {
+    width: 100%;
+  }
+}

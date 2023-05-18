@@ -1,0 +1,151 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "113",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¡Genial! Esto será rápido",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "114",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Tus beneficiarios son las personas que recibirán la suma asegurada adquirida en caso se active la cobertura de muerte accidental. Puedes elegir desde 1 hasta 5 beneficiarios.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "115",
+            "valor_html": "",
+            "orden": "1",
+            "valor_2": "",
+            "valor_1": "Elegir beneficiarios",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "116",
+            "valor_html": "",
+            "orden": "2",
+            "valor_2": "",
+            "valor_1": "Porcentaje de cesión",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "TITLE",
+            "cod_parametro": "117",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Tu primer beneficiario",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "118",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¡Genial! Esto será rápido",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "119",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Tus beneficiarios son las personas que recibirán la suma asegurada adquirida en caso se active la cobertura de muerte accidental. Puedes elegir desde 1 hasta 5 beneficiarios.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "120",
+            "valor_html": "",
+            "orden": "1",
+            "valor_2": "",
+            "valor_1": "Elegir beneficiarios",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "121",
+            "valor_html": "",
+            "orden": "2",
+            "valor_2": "",
+            "valor_1": "Porcentaje de cesión",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "TITLE",
+            "cod_parametro": "122",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Ingresa un beneficiario adicional",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO2",
+            "tipo": "TITLE",
+            "cod_parametro": "123",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Beneficiarios",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

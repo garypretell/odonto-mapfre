@@ -1,0 +1,88 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "MTozMTA4OTc4",
+        "expires_in": "300"
+    },
+    "datos": [
+        {
+            "des_pregunta": "�Fuma?",
+            "opciones": [
+                {
+                    "CODIGO": "S",
+                    "NOMBRE": "SI"
+                },
+                {
+                    "CODIGO": "N",
+                    "NOMBRE": "NO"
+                }
+            ],
+            "cod_pregunta": 1,
+            "orden": 1,
+            "tipo_ctrl": 1,
+            "cod_respuesta": "",
+            "des_respuesta": "",
+            "icon": "assets/images/icon-cigarette.svg"
+        },
+        {
+            "des_pregunta": "�Desea cubrir el deporte que practica?",
+            "opciones": [
+                {
+                    "CODIGO": "S",
+                    "NOMBRE": "SI"
+                },
+                {
+                    "CODIGO": "N",
+                    "NOMBRE": "NO"
+                }
+            ],
+            "cod_pregunta": 6,
+            "orden": 5,
+            "tipo_ctrl": 1,
+            "cod_respuesta": "",
+            "des_respuesta": "",
+            "icon": "assets/images/icon-running.svg"
+        },
+        {
+            "des_pregunta": "�Actualmente conduce motocicleta?",
+            "opciones": [
+                {
+                    "CODIGO": "S",
+                    "NOMBRE": "SI"
+                },
+                {
+                    "CODIGO": "N",
+                    "NOMBRE": "NO"
+                }
+            ],
+            "cod_pregunta": 9,
+            "orden": 10,
+            "tipo_ctrl": 1,
+            "cod_respuesta": "",
+            "des_respuesta": "",
+            "icon": "assets/images/icon-bike.svg"
+        },
+        {
+            "des_pregunta": "�Si es mujer, est� embarazada?",
+            "opciones": [
+                {
+                    "CODIGO": "S",
+                    "NOMBRE": "SI"
+                },
+                {
+                    "CODIGO": "N",
+                    "NOMBRE": "NO"
+                }
+            ],
+            "cod_pregunta": 14,
+            "orden": 15,
+            "tipo_ctrl": 1,
+            "cod_respuesta": "",
+            "des_respuesta": "",
+            "icon": "assets/images/icon-pregnancy.svg"
+        }
+    ]
+}

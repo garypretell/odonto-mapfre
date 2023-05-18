@@ -1,0 +1,19 @@
+{
+    "fraccionamiento": {
+        "cotizacion": "1379426",
+        "monto_prima": "814.3375",
+        "des_moneda": "S/",
+        "cod_moneda": "1",
+        "cod_cobertura": "COB_20ANIOS",
+        "cod_plan": "PLAN1",
+        "cod_fraccionamiento": "40004"
+    },
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "solicitud": "Y29iZXJ0dXJhOjM3ODY1NDY=",
+        "expires_in": "300"
+    }
+}

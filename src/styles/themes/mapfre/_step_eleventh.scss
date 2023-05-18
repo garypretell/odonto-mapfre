@@ -1,0 +1,83 @@
+#step-eleventh {
+  position: relative;
+  .jumbotron {
+    margin: 0 -24px;
+    background: url("../assets/images/header-payment.jpg");
+    background-size: cover;
+    background-position: 90% 100%;
+    position: relative;
+    @include media-breakpoint-down(xs) {
+      margin: 0 -16px;
+    }
+    &:before {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#fff, .7);
+    }
+    p{
+      @include media-breakpoint-down(xs) {
+        font-size: 0.875rem;
+      }
+    }
+  }
+  .section-terms {
+    background: #F7F7F7;
+    border-top: 1px solid rgba(#979797, .15);
+    .nav {
+      margin-bottom: 2em;
+      li {
+        margin-right: 3em;
+        a {
+          color: #4D4D4D;
+          font-size: .85em;
+          background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MDcuNDM3IDQwNy40MzciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQwNy40MzcgNDA3LjQzNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+Cjxwb2x5Z29uIHBvaW50cz0iMzg2LjI1OCw5MS41NjcgMjAzLjcxOCwyNzMuNTEyIDIxLjE3OSw5MS41NjcgMCwxMTIuODE1IDIwMy43MTgsMzE1Ljg3IDQwNy40MzcsMTEyLjgxNSAiIGZpbGw9IiMwMDAwMDAiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) no-repeat center right;
+          background-size: 8px;
+          padding-right: 20px;
+          &.active {
+            color: #B62317;
+          }
+        }
+      }
+    }
+    .tab-content {
+      background: #E0E0E0;
+      border-radius: 5px;
+      padding: 2em;
+    }
+  }
+  .error {
+    font-size: .9em;
+    margin-top: .5em;
+    color: #B62317;
+  }
+  .progress-text{
+    position: absolute;
+    width: 40%;
+    height: 27px !important;
+    padding: 4px;
+    border-radius: 20px;
+    right: 20px;
+    top: 20px;
+    left: unset;
+    .progress-bar{
+      border-radius: 20px;
+    }
+    span {
+      position: absolute;
+      right: 17px;
+      font-size: 0.85rem;
+    }
+    @include media-breakpoint-down(xs) {
+      position: relative !important;
+      width:100%;
+      right: unset;
+      top: unset;
+      margin-bottom: 1.5em;
+    }
+  }
+}

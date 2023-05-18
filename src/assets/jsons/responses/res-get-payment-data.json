@@ -1,0 +1,35 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "ZHBzLWRpYWdub3N0aWNvOjM3ODYyMzQ=",
+        "expires_in": "300"
+    },
+    "solicitud": {
+        "cod_agente": 9808,
+        "cod_modalidad"	: 60525,
+        "cod_fraccionionamiento": "40004",
+        "cod_moneda": 1,
+        "des_moneda": "S/",
+        "imp_prima"	: "150.50",
+        "ind_pago_banco": "S",
+        "ind_pago_tarjeta"	: "S",
+        "ini_vigencia"	: "10/02/2020",
+        "fin_vigencia"	: "10/02/2021",
+        "cotizacion"	: "1379426",
+        "cod_cobertura"	: "COB_10ANIOS",
+        "cod_plan"	: "PLAN1",
+        "sum_asegurada"	: "S/ 100,000",
+        "ind_endosar"	: "S",
+        "tip_doc_endos"	: "RUC",
+        "num_doc_endos"	: "20100047218",
+        "nom_endosatario"	: "BANCO DE CREDITO DEL PERU",
+        "cod_intermediario"	: 9808,
+        "num_transaccion"	: "3786256",
+        "cod_transaccion_bco"	: "ECOM003786256-VIDA",
+        "fec_max_pago"	: "20/02/2020",
+        "horas_restantes_pago"	: "07h  08m  43s"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "resumen": [
+        {
+            "campo_orden": "1",
+            "campo_descripcion": "Plan contratado",
+            "campo_valor": "PLAN1"
+        },
+        {
+            "campo_orden": "2",
+            "campo_descripcion": "Inicio de vigencia",
+            "campo_valor": "10 - 02 - 2020"
+        },
+        {
+            "campo_orden": "3",
+            "campo_descripcion": "Pago trimestral",
+            "campo_valor": "S/ 814,3375"
+        },
+        {
+            "campo_orden": "4",
+            "campo_descripcion": "Monto de cobertura",
+            "campo_valor": "S/ 100,000"
+        }
+    ],
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "solicitud": "cGFnbzozNzg2MjU2",
+        "expires_in": "300"
+    }
+}

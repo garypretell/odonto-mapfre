@@ -1,0 +1,86 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¡Gracias!",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Ahora, confírmanos cuál es tu ocupación actual.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-sector.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "10",
+            "valor_2": "",
+            "valor_1": "Nombre del lugar de trabajo",
+            "url": "TEXTO",
+            "referencia": "404",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-profesion.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "20",
+            "valor_2": "",
+            "valor_1": "¿Cuál es tu ocupación?",
+            "url": "LISTA",
+            "referencia": "405",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-actividad.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "5",
+            "valor_html": "",
+            "orden": "21",
+            "valor_2": "",
+            "valor_1": "¿En actividad o retiro?",
+            "url": "OPCION",
+            "referencia": "406",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "CUESTIONARIO",
+            "tipo": "NOTA",
+            "cod_parametro": "7",
+            "valor_html": "",
+            "orden": "*",
+            "valor_2": "",
+            "valor_1": "Al darle click a \"siguiente\" confirmas que la información ingresada aquí es totalmente verídica",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

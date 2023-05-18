@@ -1,0 +1,62 @@
+#step-sixth {
+  background: url("../assets/images/validate-data-background.jpg") center center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  overflow-y: auto;
+  .container-fluid:before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(#fff, .9);
+  }
+  @include media-breakpoint-down(md) {
+    overflow-y: auto;
+  }
+
+  .form-validate{
+    .col-7{
+      padding-right: 0px;
+    }
+    .submit {
+      height: 10px;
+      text-align: center;
+      .btn-submit {
+        margin-top: 0px;
+        width: 25%;
+      }
+      @include media-breakpoint-down(xs) {
+        height: 26px;
+      }
+    }
+  }
+  .info-step-sixth{
+    font-size: 0.7rem;
+  }
+  .modal-dialog {
+    max-width: 60%;
+    @include media-breakpoint-down(xs) {
+      max-width: 100%;
+    }
+  }
+}
+
+.transparency{
+  .submit {
+    height: 50px !important;
+    @include media-breakpoint-down(xs) {
+      height: 66px !important;
+    }
+  }
+  .long-text {
+    display: none
+  }
+  .show-more-button{
+    cursor: pointer;
+    color: #B62317;
+  }
+}

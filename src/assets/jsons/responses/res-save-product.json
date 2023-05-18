@@ -1,0 +1,10 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "MTozMTA4OTc4",
+        "expires_in": "300"
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "En MAPFRE somos trasparentes y por eso queremos que sepas en qué circunstancias no tendrás cobertura en de fallecimiento:",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-1.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "10",
+            "valor_2": "",
+            "valor_1": "Los producidos como consecuencia directa o indirecta de fisión o fusión nuclear, reacción nuclear o contaminación radioactiva, que no corresponda a tratamientos médicos.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-2.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "20",
+            "valor_2": "",
+            "valor_1": "Los ocasionados por guerra civil o internacional (declarada o no), servicio militar o policial de cualquier índole.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-3.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "30",
+            "valor_2": "",
+            "valor_1": "Homicidio doloso cometido en calidad de autor, cómplice por un beneficiario de ésta póliza o quién pudiere reclamar la indemnización.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-4.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "5",
+            "valor_html": "",
+            "orden": "40",
+            "valor_2": "",
+            "valor_1": "Suicidio, salvo que el contrato haya estado en vigencia ininterrumpidamente por 2 años.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-5.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "6",
+            "valor_html": "",
+            "orden": "50",
+            "valor_2": "",
+            "valor_1": "Siendo conductor o acompañante en carreras o ensayos de velocidad o resistencia de automóviles, motocicletas, lanchas a motor, avionetas. Incluyendo carreras de entretenimiento.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-transparency-6.svg",
+            "seccion": "EXCLUSIONES",
+            "tipo": "ITEM",
+            "cod_parametro": "7",
+            "valor_html": "",
+            "orden": "60",
+            "valor_2": "",
+            "valor_1": "El riesgo de aviación, salvo que el ASEGURADO esté viajando de manera autorizada en calidad de pasajero en aeronaves con capacidad mayor a diez plazas …",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "CHECK",
+            "cod_parametro": "8",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Acepto haber leído y comprendido las exclusiones descritas anteriormente",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "NOTA",
+            "cod_parametro": "9",
+            "valor_html": "",
+            "orden": "*",
+            "valor_2": "",
+            "valor_1": "Al darle click a \"siguiente\" confirmas que la información ingresada aquí es totalmente verídica",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

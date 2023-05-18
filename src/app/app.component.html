@@ -1,3 +1,58 @@
-<!-- <canvas id="canvas" #canvasRef></canvas> -->
+<div class="contenedor">
+    <div class="oim">
+        <mapfre-header></mapfre-header>
+    </div>
+    <div class="cabecera">
+        <h3>CABECERA</h3>
+    </div>
+    <div class="diagnostico">
+        <h3>DIAGNOSTICO</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reprehenderit inventore modi, maxime quod rem
+        voluptates alias cumque asperiores id quos deserunt nisi commodi architecto sed ullam. Inventore, accusantium
+        nisi.
+    </div>
+    <div class="hallazgo">
+        <h3>HALLAZGO</h3>
+    </div>
+    <div class="odonto">
+        <div class="row my-3">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">PERMANENTE</label>
 
-<canvas id="canvas"  #canvasRef width="648" height="500"></canvas>
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">TEMPORAL</label>
+            </div>
+        </div>
+        <canvas id="canvas" #canvasRef width="648" height="500"></canvas>
+    </div>
+    <div class="formulario p-3">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <div class="mb-3">
+                    <label for="leyenda" class="form-label">Leyenda</label>
+                    <textarea class="form-control border border-primary-subtle" id="leyenda" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="mb-3">
+                    <label for="especificaciones" class="form-label">Especificaciones</label>
+                    <textarea class="form-control border border-primary-subtle" id="especificaciones"
+                        rows="3"></textarea>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="mb-3">
+                    <label for="observaciones" class="form-label">Observaciones</label>
+                    <textarea class="form-control border border-primary-subtle" id="observaciones" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="mb-3">
+                <label for="tratamiento" class="form-label">Plan de tratamiento</label>
+                <textarea class="form-control border border-primary-subtle" id="tratamiento" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+</div>

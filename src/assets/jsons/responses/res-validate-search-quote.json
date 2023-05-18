@@ -1,0 +1,10 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "PROCESO EJECUTADO CORRECTAMENTE"
+    },
+    "token": {
+        "solicitud": "",
+        "expires_in": "300"
+    }
+}

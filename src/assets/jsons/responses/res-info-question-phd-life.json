@@ -1,0 +1,99 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¡Perfecto!",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Por favor, responde las siguientes preguntas con total honestidad.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-cigarette.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "10",
+            "valor_2": "",
+            "valor_1": "¿Fuma o Vapea?",
+            "url": "OPCION",
+            "referencia": "400",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-running.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "20",
+            "valor_2": "",
+            "valor_1": "¿Quieres cubrir algún deporte en caso de invalidez o muerte?",
+            "url": "OPCION",
+            "referencia": "401",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-bike.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "5",
+            "valor_html": "",
+            "orden": "30",
+            "valor_2": "",
+            "valor_1": "¿Conduces motocicleta y deseas cubrir ese riesgo en caso de invalidez o muerte?",
+            "url": "OPCION",
+            "referencia": "402",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-pregnancy.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "6",
+            "valor_html": "",
+            "orden": "40",
+            "valor_2": "",
+            "valor_1": "¿Estás embarazada?",
+            "url": "OPCION",
+            "referencia": "403",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "CUESTIONARIO",
+            "tipo": "NOTA",
+            "cod_parametro": "7",
+            "valor_html": "",
+            "orden": "*",
+            "valor_2": "",
+            "valor_1": "Al darle click a \"siguiente\" confirmas que la información ingresada aquí es totalmente verídica",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

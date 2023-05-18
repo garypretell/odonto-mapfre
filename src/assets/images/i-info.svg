@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Grupo_4034" data-name="Grupo 4034" transform="translate(-1125 -370)">
+    <rect id="Rectángulo_5059" data-name="Rectángulo 5059" width="24" height="24" transform="translate(1125 370)" fill="none"/>
+    <g id="Icon_States_Info-64" data-name="Icon/States/Info-64" transform="translate(1127 372)">
+      <path id="Combined-Shape" d="M10,0A10,10,0,1,1,0,10,10.011,10.011,0,0,1,10,0Zm0,1.25A8.75,8.75,0,1,0,18.75,10,8.76,8.76,0,0,0,10,1.25ZM9.375,8.125a1.252,1.252,0,0,1,1.25,1.25V12.5a.625.625,0,0,0,.625.625h.625a.625.625,0,0,1,0,1.25H11.25A1.877,1.877,0,0,1,9.375,12.5V9.375H8.75a.625.625,0,0,1,0-1.25ZM9.688,5a.938.938,0,1,1-.938.938A.937.937,0,0,1,9.688,5Z" fill="#0ca6b3"/>
+    </g>
+  </g>
+</svg>

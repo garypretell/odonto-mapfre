@@ -1,0 +1,47 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "7",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "en solo 3 minutos y desde S/ 1.70 al día.",
+            "valor_1": "Protege a quienes más quieres ante cualquier cosa",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "8",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Cotiza y compra en línea nuestro Seguro de Vida",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "TITLE",
+            "cod_parametro": "9",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Cotiza tu seguro",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

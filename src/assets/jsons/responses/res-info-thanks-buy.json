@@ -1,0 +1,60 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¡Felicidades! Ya estás asegurado",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Te estaremos enviando tu póliza por correo electrónico en un plazo no mayor a 24hrs.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "SECCION_BENEFICIARIOS",
+            "tipo": "TITLE",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "¿Deseas modificar tus Beneficiarios?",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "SECCION_BENEFICIARIOS",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "En caso que no elegir tu beneficiarios en este momento, podrás elegirlos en cualquier momento o se considerarán tus beneficiarios de ley.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

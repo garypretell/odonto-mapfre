@@ -1,0 +1,47 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "TITLE",
+            "cod_parametro": "29",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Datos de Contacto",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "LINK",
+            "cod_parametro": "30",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "cláusula de protección de datos",
+            "url": "https://www.mapfre.com.pe/sobre-mapfre-peru/transparencia/proteccion-datos/",
+            "referencia": "",
+            "target": "_blank"
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "LINK",
+            "cod_parametro": "31",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "<p>Las personas expuestas políticamente (PEP) son personas naturales, nacionales o extranjeras, que cumplen o que en los últimos cinco (5) años hayan cumplido funciones públicas destacadas o funciones prominentes en una organización internacional, sea en el territorio nacional o extranjero, y cuyas circunstancias financieras puedan ser objeto de un interés. Asimismo, se considera como PEP al colaborador directo de la máxima autoridad de la institución. Resolución SBS N° 4349-2016.</p>",
+            "valor_1": "Persona Políticamente Expuesta.",
+            "url": "",
+            "referencia": "",
+            "target": "_popup"
+        }
+    ]
+}

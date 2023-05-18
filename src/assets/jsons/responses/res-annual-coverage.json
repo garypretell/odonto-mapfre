@@ -1,0 +1,26 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "10",
+            "des_detalle": "10 AÑOS"
+        },
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "20",
+            "des_detalle": "20 AÑOS"
+        },
+        {
+            "valor1": "",
+            "valor2": "",
+            "cod_detalle": "30",
+            "des_detalle": "30 AÑOS"
+        }
+    ]
+}

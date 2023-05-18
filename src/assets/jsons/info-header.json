@@ -1,0 +1,21 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "assets/images/logo.svg",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Seguro de Vida Temporal",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

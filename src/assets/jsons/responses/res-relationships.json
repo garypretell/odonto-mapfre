@@ -1,0 +1,86 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "maestro": [
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "AB",
+            "des_detalle": "ABUELO/A"
+        },
+        {
+            "valor1": "S",
+            "valor2": "",
+            "cod_detalle": "CO",
+            "des_detalle": "CONYUGE"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "CU",
+            "des_detalle": "CUÑADO"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "HI",
+            "des_detalle": "HIJO/A"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "HR",
+            "des_detalle": "HERMANO/A"
+        },
+        {
+            "valor1": "S",
+            "valor2": "",
+            "cod_detalle": "MA",
+            "des_detalle": "MADRE"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "NI",
+            "des_detalle": "NIETO/A"
+        },
+        {
+            "valor1": "S",
+            "valor2": "",
+            "cod_detalle": "PA",
+            "des_detalle": "PADRE"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "PR",
+            "des_detalle": "PRIMO/A"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "SE",
+            "des_detalle": "SERVICIO"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "SO",
+            "des_detalle": "SOBRINO/A"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "SU",
+            "des_detalle": "SUEGRO/A"
+        },
+        {
+            "valor1": "N",
+            "valor2": "",
+            "cod_detalle": "TO",
+            "des_detalle": "TIO/TIA"
+        }
+    ]
+}

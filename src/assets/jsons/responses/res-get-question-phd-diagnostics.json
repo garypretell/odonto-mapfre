@@ -1,0 +1,127 @@
+{
+    "datos": [
+        {
+            "des_pregunta": "¿Has estado bajo tratamiento médico en los últimos 5 años por alguna enfermedad o tienes alguna discapacidad, enfermedad congénita o defecto físico, o vas a ser sometido a alguna intervención quirúrgica próximamente?",
+            "icono_pregunta": "assets/images/icon-disease.svg",
+            "opciones": [
+                {
+                    "codigo": "S",
+                    "descripcion": "SI",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "N",
+                    "descripcion": "NO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "408",
+            "orden": "10",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿Has sido diagnosticado(a) o padeces de alguna enfermedades agudas o crónicas?",
+            "icono_pregunta": "assets/images/icon-list-disease.svg",
+            "opciones": [
+                {
+                    "codigo": "S",
+                    "descripcion": "SI",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "N",
+                    "descripcion": "NO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "409",
+            "orden": "20",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿Consumes morfina, cocaína, LSD, marihuana u otras drogas?",
+            "icono_pregunta": "assets/images/icon-drugs.svg",
+            "opciones": [
+                {
+                    "codigo": "S",
+                    "descripcion": "SI",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "N",
+                    "descripcion": "NO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "411",
+            "orden": "40",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿Tiene actualmente un Seguro de Vida contratado con aseguradoras locales?",
+            "icono_pregunta": "assets/images/icon-others.svg",
+            "opciones": [
+                {
+                    "codigo": "S",
+                    "descripcion": "SI",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "N",
+                    "descripcion": "NO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "412",
+            "orden": "50",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿Tiene actualmente una solicitud de seguro de vida en trámite en otra compañía de seguros?",
+            "icono_pregunta": "assets/images/icon-others.svg",
+            "opciones": [
+                {
+                    "codigo": "S",
+                    "descripcion": "SI",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "N",
+                    "descripcion": "NO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "413",
+            "orden": "60",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        }
+    ],
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "ZHBzLWRpYWdub3N0aWNvOjM3ODYyMzQ=",
+        "expires_in": "300"
+    }
+}

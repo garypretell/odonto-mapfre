@@ -1,0 +1,620 @@
+{
+    "datos": [
+        {
+            "des_pregunta": "Nombre del lugar de trabajo",
+            "icono_pregunta": "assets/images/icon-sector.svg",
+            "opciones": [],
+            "cod_pregunta": "404",
+            "orden": "10",
+            "tipo_ctrl": "TEXTO",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿Cuál es tu ocupación?",
+            "icono_pregunta": "assets/images/icon-profesion.svg",
+            "opciones": [
+                {
+                    "codigo": "1",
+                    "descripcion": "ABOGADO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "2",
+                    "descripcion": "ACTOR,ACTRIZ,ARTISTA,DIRECTOR ESPECTACULOS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "117",
+                    "descripcion": "ACTUARIO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "3",
+                    "descripcion": "ADMINISTRADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "118",
+                    "descripcion": "ADUANERO/AGENTE DE ADUANAS/INSPECTORES DE FRONTERA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "121",
+                    "descripcion": "AGENTE DE BOLSA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "122",
+                    "descripcion": "AGENTE DE INMIGRACION/MIGRACION",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "123",
+                    "descripcion": "AGENTE DE TURISMO/VIAJES",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "124",
+                    "descripcion": "AGENTE/INTERMEDIARIO/CORREDOR DE SEGUROS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "120",
+                    "descripcion": "AGENTE/INTERMEDIARIO/CORREDOR INMOBILIARIO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "63",
+                    "descripcion": "AMA DE CASA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "7",
+                    "descripcion": "ANALISTA DE SISTEMA Y COMPUTACION",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "64",
+                    "descripcion": "ANALISTA JR.",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "65",
+                    "descripcion": "ANALISTA SR.",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "27",
+                    "descripcion": "ARBITRO,ENTRENADOR DEPORTIVO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "9",
+                    "descripcion": "ARCHIVERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "10",
+                    "descripcion": "ARQUITECTO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "66",
+                    "descripcion": "ASISTENTE",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "126",
+                    "descripcion": "ASISTENTE SOCIAL",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "13",
+                    "descripcion": "AUTOR LITERARIO,ESCRITOR,CRITICO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "100",
+                    "descripcion": "CARDIOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "132",
+                    "descripcion": "CARTERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "101",
+                    "descripcion": "CIRUJANO PLASTICO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "71",
+                    "descripcion": "COMUNICADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "70",
+                    "descripcion": "CONSULTOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "18",
+                    "descripcion": "CONTADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "19",
+                    "descripcion": "COREOGRAFO Y BAILARINES",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "20",
+                    "descripcion": "COSMETOLOGO,PELUQUERO Y BARBERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "21",
+                    "descripcion": "DECORADOR,DIBUJANTE,PUBLICISTA,DISEÑADOR DE PUBLICIDAD",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "47",
+                    "descripcion": "DENTISTA/ODONTOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "102",
+                    "descripcion": "DERMATOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "178",
+                    "descripcion": "DIPLOMATICO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "23",
+                    "descripcion": "DIRECTOR DE EMPRESAS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "72",
+                    "descripcion": "DISEÑADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "138",
+                    "descripcion": "DISTRIBUIDOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "51",
+                    "descripcion": "DOCENTE",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "24",
+                    "descripcion": "ECONOMISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "73",
+                    "descripcion": "EJECUTIVO DE CUENTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "81",
+                    "descripcion": "EMPLEADA(O) DEL HOGAR/NANA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "74",
+                    "descripcion": "EMPRESARIO EXPORTADOR/EMPRESARIO IMPORTADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "103",
+                    "descripcion": "ENDOCRINOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "26",
+                    "descripcion": "ENFERMERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "28",
+                    "descripcion": "ESCENOGRAFO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "78",
+                    "descripcion": "ESCRITOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "29",
+                    "descripcion": "ESCULTOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "30",
+                    "descripcion": "ESPECIALISTA EN TRAT DE BELLEZ",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "140",
+                    "descripcion": "ESTUDIANTE",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "31",
+                    "descripcion": "FARMACEUTICO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "32",
+                    "descripcion": "FOTOGRAFO/OPERADOR CAMARA,CINE Y TV,GUIONISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "75",
+                    "descripcion": "GERENTE",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "104",
+                    "descripcion": "GERIATRA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "105",
+                    "descripcion": "GINECOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "142",
+                    "descripcion": "HISTORIADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "36",
+                    "descripcion": "INTERPRETE,TRADUCTOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "143",
+                    "descripcion": "JARDINERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "76",
+                    "descripcion": "JEFE DEPARTAMENTO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "88",
+                    "descripcion": "JUBILADO/PENSIONISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "77",
+                    "descripcion": "LINGÜISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "145",
+                    "descripcion": "LIQUIDADOR, RECLAMACIONES/SEGUROS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "39",
+                    "descripcion": "LOCUTOR DE RADIO Y TV",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "79",
+                    "descripcion": "MARKETING",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "147",
+                    "descripcion": "MARTILLERO/SUBASTADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "42",
+                    "descripcion": "MEDICO Y CIRUJANO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "43",
+                    "descripcion": "MODELO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "44",
+                    "descripcion": "MUSICO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "106",
+                    "descripcion": "NEUMOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "107",
+                    "descripcion": "NEUROCIRUJANO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "45",
+                    "descripcion": "NUTRICIONISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "46",
+                    "descripcion": "OBSTETRIZ",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "108",
+                    "descripcion": "OFTALMOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "150",
+                    "descripcion": "ORGANIZADOR DE EVENTOS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "109",
+                    "descripcion": "ORTOPEDISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "110",
+                    "descripcion": "PEDIATRA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "156",
+                    "descripcion": "PRODUCTOR DE CINE/RADIO/TELEVISION/TEATRO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "158",
+                    "descripcion": "PROGRAMADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "52",
+                    "descripcion": "PSICOLOGO/TERAPEUTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "111",
+                    "descripcion": "PSIQUIATRA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "159",
+                    "descripcion": "QUIROPRACTICO/KINESITERAPEUTA (KINESIOLOGOS)",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "54",
+                    "descripcion": "REGIDOR MUNICIPAL",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "55",
+                    "descripcion": "RELACIONISTA PUBLICO E INDUSTRIAL",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "160",
+                    "descripcion": "RELOJERO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "113",
+                    "descripcion": "REUMATOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "162",
+                    "descripcion": "SACERDOTE/MONJA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "83",
+                    "descripcion": "SECRETARIA,RECEPCIONISTA,TELEFONISTA",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "165",
+                    "descripcion": "SERVICIO DE ALQUILER DE VEHICULOS",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "166",
+                    "descripcion": "SERVICIO DE ALQUILER DE VIDEOS, EQUIPOS DE SONIDO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "57",
+                    "descripcion": "SOCIOLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "84",
+                    "descripcion": "SUB DIRECTOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "85",
+                    "descripcion": "SUB GERENTE",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "167",
+                    "descripcion": "TASADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "170",
+                    "descripcion": "TRAMITADOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "114",
+                    "descripcion": "UROLOGO",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "87",
+                    "descripcion": "VENDEDOR",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "174",
+                    "descripcion": "VISITADOR MEDICO",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "405",
+            "orden": "20",
+            "tipo_ctrl": "LISTA",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        },
+        {
+            "des_pregunta": "¿En actividad o retiro?",
+            "icono_pregunta": "assets/images/icon-actividad.svg",
+            "opciones": [
+                {
+                    "codigo": "95",
+                    "descripcion": "Actividad",
+                    "valor1": null,
+                    "valor2": null
+                },
+                {
+                    "codigo": "96",
+                    "descripcion": "Retiro",
+                    "valor1": null,
+                    "valor2": null
+                }
+            ],
+            "cod_pregunta": "406",
+            "orden": "21",
+            "tipo_ctrl": "OPCION",
+            "cod_respuesta": "",
+            "des_respuesta": ""
+        }
+    ],
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "ZHBzLW9jdXBhY2lvbjozNzg2MjM0",
+        "expires_in": "300"
+    }
+}

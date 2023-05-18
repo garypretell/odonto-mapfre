@@ -1,0 +1,75 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "id": "MTozMTA4OTc4",
+        "expires_in": "300"
+    },
+    "datos": [
+        {
+            "duracionSeguro": "10",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>12,500</strong></span></p>",
+            "monto_asegurado": "100000",
+            "cod_plan": "1",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "10",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "150000",
+            "cod_plan": "2",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "10",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>32,500</strong></span></p>",
+            "monto_asegurado": "200000",
+            "cod_plan": "3",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "20",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "100000",
+            "cod_plan": "1",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "20",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "150000",
+            "cod_plan": "2",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "20",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "200000",
+            "cod_plan": "3",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "30",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "100000",
+            "cod_plan": "1",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "30",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "150000",
+            "cod_plan": "2",
+            "monto_aseg_moneda": "S/"
+        },
+        {
+            "duracionSeguro": "30",
+            "cobertura": "<div class=\"font-weight-bold\">Vida Devoluci�n Total D�lares</div> <p>Seguro de Vida que protege la estabilidad econ�mica de tu familia por el tiempo que elijas (10,15 o 20 a�os).<br>Adem�s, te permite ahorrar ya que te devuelve el 100% de lo pagado al finalizar el plazo. Al terminar el periodo contratado, si no se activ� la cobertura de fallecimiento, te devolvemos todo lo pagado.</p> <p>Monto final a devolver <span class=\"price h5\">S/ <strong>22,500</strong></span></p>",
+            "monto_asegurado": "200000",
+            "cod_plan": "3",
+            "monto_aseg_moneda": "S/"
+        }
+    ]
+}

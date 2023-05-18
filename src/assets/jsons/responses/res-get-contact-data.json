@@ -1,0 +1,29 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "expires-in": "300",
+        "id": "MTozMTA4OTcy"
+    },
+    "solicitante": {
+        "tipo_documento": "DNI",
+        "num_documento": "11111111",
+        "apellido_paterno": "Rojas",
+        "apellido_materno": "Ramirez",
+        "nombres": "Juan",
+        "genero": "M",
+        "fecha_nacimiento": "15/02/1988",
+        "num_fono": "122222222",
+        "email": "jrojas@mail.com",
+        "cod_nacionalidad": "PE",
+        "cod_departamento": "5",
+        "cod_provincia": "128",
+        "cod_distrito": "4",
+        "direccion": "Reducto 1555",
+        "ind_pep": "",
+        "talla": "175",
+        "peso": "85"
+    }
+}

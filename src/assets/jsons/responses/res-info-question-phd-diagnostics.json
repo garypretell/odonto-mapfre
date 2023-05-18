@@ -1,0 +1,138 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "1",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Para terminar",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "2",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Cuéntanos sobre tu salud y estilo de vida",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-disease.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "3",
+            "valor_html": "",
+            "orden": "10",
+            "valor_2": "",
+            "valor_1": "¿Has estado bajo tratamiento médico en los últimos 5 años por alguna enfermedad o tienes alguna discapacidad, enfermedad congénita o defecto físico, o vas a ser sometido a alguna intervención quirúrgica próximamente?",
+            "url": "OPCION",
+            "referencia": "408",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-list-disease.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "4",
+            "valor_html": "",
+            "orden": "20",
+            "valor_2": " <p class=\"font-weight-bold\">Enfermedades o dolencias relacionadas a:</p><div><b>Enfermedades o dolencias del sistema nervioso, </b>tales como: convulsiones, parálisis, cefalea, migraña, neuritis, mareos, desvanecimiento, aneurismas, malformaciones vasculares, quistes, tumores, infartos o derrames cerebrales, Parkinson, alteraciones de la memoria, enfermedad de Alzheimer, desmayos, apnea del sueño u otras afecciones del sistema nervioso.</div><div><b>Enfermedades mentales (psiquiátricas o psicológicas), </b>tales como: demencia, psicosis, ansiedad, depresión, cura de reposo, crisis de pánico, pérdida de memoria, bulimia, anorexia, farmacodependencia u otros trastornos psiquiátricos / psicológico.</div><div><b>Enfermedades o dolencias del apartado cardiovascular, </b>tales como: presión alta, dolor en el pecho, infartos cardiacos, taquicardia, bradicardia, insuficiencia cardiaca, enfermedades de las válvulas del corazón, soplos u otras enfermedades cardiovasculares.</div><div><b>Enfermedades o dolencias del aparato Respiratorio, </b>tales como: tos crónica, asma, tuberculosis, enfisema, neumonía u otras enfermedades del aparato respiratorio.</div><div><b>Enfermedades del aparato Digestivo, </b>tales como. Esofagitis, gastritis, úlcera digestiva, colitis, hemorragia intestinal, pólipos, divertículos, diarrea crónica, pancreatitis, cálculos vesiculares, hepatitis cirrosis, u otras enfermedades del aparato digestivo.</div><div><b>Enfermedades o dolencias del aparato urinario o de los órganos genitales, </b>tales como: cálculos renales, azúcar, sangre o proteínas en la orina, insuficiencia renal, prostatitis, hipertrofia prostática, falta de un riñón, enfermedades de transmisión sexual u otras del aparato urinario o genital.</div><div><b>Enfermedades o dolencias ginecológicas o de la mama, </b>tales como: fibroma o mioma uterino, endometriosis, hemorragias uterinas, prolapso genitourinario, galactorrea, mastitis, quistes, tumores o fibroadenomas mamarios u otras enfermedades de los órganos genitales o la mama.</div><div><b>Enfermedades autoinmunes o del tejido conectivo, </b>tales como: fiebre reumática, artritis, lupus, esclerosis, múltiple, enfermedad del Raynaud, vasculitis u otras enfermedades autoinmunes.</div><div><b>Enfermedades o dolencias de los huesos, articulaciones o de la columna vertebral, </b>tales como: lumbalgia, cervicalgia, hernias de columna, osteoporosis, artrosis, reumatismo, gota, fibromialgias, enfermedades musculares o de las rodillas u otras enfermedades de los huesos, articulaciones o columna.</div><div><b>Enfermedades o dolencias de la piel, </b>tales como: psoriasis u otras enfermedades de la piel.</div><div><b>Enfermedades o dolencias hematológicas, </b>tales como: anemias, leucemia, trastornos de la coagulación u otras.</div><div><b>Enfermedades o dolencias de los ojos, </b>tales como: glaucoma, catarata, enfermedades de la retina u otras enfermedades de los ojos.</div><div><b>Enfermedades o dolencia de los oídos, </b>tales como: laberintitis, sordera perforación timpánica, vértigos u otras.</div><div><b>Enfermedades o dolencias endocrinológicas, </b>tales como: diabetes, hipotiroidismo, hipertiroidismo, ovario poliquístico, hiperprolactinemia, alteraciones de la hipófisis, síndrome metabólico u otras enfermedades endocrinológicas.</div><div><b>Enfermedades o dolencias oncológicas, </b>tales como: tumores benignos o malignos, cáncer en cualquier órgano o tejido del cuerpo.</div><div><b>Enfermedades o defectos congénitos.</b></div><div><b>Transplante de cualquier órgano.</b></div><div><b>Enfermedades infecciosas o parasitarias, </b>tales como: tuberculosis, SIDA, malaria, cisticercosis, brucelosis, hidatidosis, hepatitis u otras.</div>",
+            "valor_1": "¿Has sido diagnosticado(a) o padeces de alguna enfermedades agudas o crónicas?",
+            "url": "OPCION",
+            "referencia": "409",
+            "target": "_popup"
+        },
+        {
+            "recurso": "assets/images/icon-drugs.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "5",
+            "valor_html": "",
+            "orden": "40",
+            "valor_2": "",
+            "valor_1": "¿Consumes morfina, cocaína, LSD, marihuana u otras drogas?",
+            "url": "OPCION",
+            "referencia": "411",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-others.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "6",
+            "valor_html": "",
+            "orden": "50",
+            "valor_2": "",
+            "valor_1": "¿Tiene actualmente un Seguro de Vida contratado con aseguradoras locales?",
+            "url": "OPCION",
+            "referencia": "412",
+            "target": ""
+        },
+        {
+            "recurso": "assets/images/icon-others.svg",
+            "seccion": "CUESTIONARIO",
+            "tipo": "PREGUNTA",
+            "cod_parametro": "7",
+            "valor_html": "",
+            "orden": "60",
+            "valor_2": "",
+            "valor_1": "¿Tiene actualmente una solicitud de seguro de vida en trámite en otra compañía de seguros?",
+            "url": "OPCION",
+            "referencia": "413",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "CUESTIONARIO",
+            "tipo": "NOTA",
+            "cod_parametro": "8",
+            "valor_html": "",
+            "orden": "*",
+            "valor_2": "",
+            "valor_1": "Al darle click a \"siguiente\" confirmas que la información ingresada aquí es totalmente verídica",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "CHECK",
+            "cod_parametro": "9",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Acepto que ninguna compañía de seguros rechazó emitirme una póliza de Seguro de Vida o lo hizo con limitaciones y/o recargos.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "LINK",
+            "cod_parametro": "10",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "<p class=\"font-weight-bold\">Términos y condiciones de la DPS</p><div>Autorizo a todo médico, clínica, hospital u otros establecimientos médicos, compañías de seguros o cualquier otra institución o persona que tenga algún registro o información sobre mi persona o de mi salud a brindar a MAPFRE dicha información.</div><br><div>EL ASEGURADO autoriza expresamente a LA COMPAÑÍA en los casos que se produzca un riesgo amparado por esta póliza, a acceder a la información y a solicitar la historia clínica en cualquier centro de salud privado o público, en el momento que lo requiera. Asimismo, autorizo el relevamiento del secreto profesional a todo médico, clínica o establecimiento de salud con respecto a la información que requiera LA COMPAÑIA con relación a mi salud para efectos de la liquidación de la cobertura del seguro.</div><br><div>Declaro que las respuestas dadas son completas y verdaderas, y que no existe otra información relacionada a alguna enfermedad o dolencia preexistente que me haya sido diagnosticada por un médico, ni tampoco estar a la espera del resultado de algún diagnóstico que pueda afectar mi salud. Del mismo modo declaro que no existe información adicional que brindar a LA COMPAÑIA respecto de las preguntas realizadas en la presente solicitud. Asimismo, declaro que es de mi conocimiento que cualquier omisión, simulación o falsedad afectada con dolo o culpa inexcusable, determina la nulidad del contrato de seguro.</div><br><div>La información brindada por EL ASEGURADO servirá a LA COMPAÑIA para constituir la base del contrato de seguro.</div><br>",
+            "valor_1": "Acepto los términos y condiciones de mi declaración personal de salud",
+            "url": "",
+            "referencia": "",
+            "target": "_popup"
+        }
+    ]
+}

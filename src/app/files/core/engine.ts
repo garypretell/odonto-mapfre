@@ -2580,8 +2580,6 @@ export class Engine {
   setDataSource(dataArray: any) {
     this.reset();
 
-    console.log('Engine setDataSource data: ' + dataArray);
-
     var res = dataArray.split(',');
 
     var i = 0;

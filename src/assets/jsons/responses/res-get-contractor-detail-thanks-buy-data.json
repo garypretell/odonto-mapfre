@@ -1,0 +1,77 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "token": {
+        "expires-in": "300",
+        "solicitud": "ZGF0b3MtY29udGFjdG86Mzc4NjU0Ng=="
+    },
+    "resumen": [
+        {
+           "campo_orden":1,
+           "campo_descripcion":"Nombres",
+           "campo_valor":"Arturo Via"
+        },
+        {
+           "campo_orden":2,
+           "campo_descripcion":"Apellidos",
+           "campo_valor":"Rada Fernández"
+        },
+        {
+           "campo_orden":3,
+           "campo_descripcion":"Tipo de documento",
+           "campo_valor":"DNI"
+        },
+        {
+           "campo_orden":4,
+           "campo_descripcion":"Número de documento",
+           "campo_valor":"70520465"
+        },
+        {
+           "campo_orden":5,
+           "campo_descripcion":"Teléfono",
+           "campo_valor":"992554148"
+        },
+        {
+           "campo_orden":6,
+           "campo_descripcion":"E-mail",
+           "campo_valor":"gmondragon@seek.pe"
+        },
+        {
+           "campo_orden":7,
+           "campo_descripcion":"Nacionalidad",
+           "campo_valor":"Perú"
+        },
+        {
+           "campo_orden":8,
+           "campo_descripcion":"Departamento",
+           "campo_valor":"Lima"
+        },
+        {
+           "campo_orden":9,
+           "campo_descripcion":"Provincia",
+           "campo_valor":"Lima"
+        },
+        {
+           "campo_orden":10,
+           "campo_descripcion":"Dirección",
+           "campo_valor":"Calle Mártir Jose Olaya 201"
+        },
+        {
+           "campo_orden":11,
+           "campo_descripcion":"Ocupación",
+           "campo_valor":"Desarrollador"
+        },
+        {
+           "campo_orden":12,
+           "campo_descripcion":"Empresa",
+           "campo_valor":"Seek"
+        },
+        {
+           "campo_orden":13,
+           "campo_descripcion":"Seguro contratado",
+           "campo_valor":"Plan Covida 1 S/ 59 mensual"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "26",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Ingresa tus datos",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "27",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "talla, peso, e-mail y domicilio.",
+            "valor_1": "Por favor, valida tus datos y verifica que sean los correctos. Además, ingresa los datos adicionales como la",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "TITLE",
+            "cod_parametro": "28",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Datos Personales",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        }
+    ]
+}

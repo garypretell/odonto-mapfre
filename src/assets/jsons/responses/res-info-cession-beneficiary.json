@@ -1,0 +1,73 @@
+{
+    "respuesta": {
+        "codigo": "200",
+        "mensaje": "Successful"
+    },
+    "configuracion": [
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "TITLE",
+            "cod_parametro": "124",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Este es el último paso",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "GENERAL",
+            "tipo": "SUBTITLE",
+            "cod_parametro": "125",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "",
+            "valor_1": "Estos son los porcentajes de suma asegurada que recibirán tus beneficiarios en caso tengas un accidente.",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "126",
+            "valor_html": "",
+            "orden": "1",
+            "valor_2": "",
+            "valor_1": "Elegir beneficiarios",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "PASOS",
+            "tipo": "TITLE",
+            "cod_parametro": "127",
+            "valor_html": "",
+            "orden": "2",
+            "valor_2": "",
+            "valor_1": "Porcentaje de cesión",
+            "url": "",
+            "referencia": "",
+            "target": ""
+        },
+        {
+            "recurso": "",
+            "seccion": "FORMULARIO",
+            "tipo": "LINK",
+            "cod_parametro": "128",
+            "valor_html": "",
+            "orden": "",
+            "valor_2": "<p class=\"font-weight-bold\">Porcentaje de cesión de suma asegurable entre Beneficiarios</p><p>Al fallecimiento del asegurado a consecuencia de un accidente cubierto por la presente póliza, MAPFRE pagará a los beneficiarios designados la suma asegurada indicada en las Condiciones Particulares, quedando automáticamente extinguido el Contrato de Seguro</p>",
+            "valor_1": "Acepto las condiciones del porcentaje de cesión",
+            "url": "",
+            "referencia": "",
+            "target": "_popup"
+        }
+    ]
+}
